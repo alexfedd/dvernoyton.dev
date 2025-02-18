@@ -1,0 +1,112 @@
+.item-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 9px;
+  height: fit-content;
+  &__image {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    @media (max-width: 767px) {
+      //height: 250px;
+    }
+  }
+  &__image--white-bg {
+    border-radius: 13px;
+  }
+  @mixin hover {
+    &:hover &__image img {
+      transform: scale(1.1);
+    }
+    &:hover &__title {
+      color: var(--primary);
+    }
+  }
+  @media (hover: hover) {
+    @include hover;
+  }
+  &:active {
+    @include hover;
+  }
+  &:has(&__image--white-bg) &__content {
+    padding-bottom: 0 !important;
+  }
+  &__content {
+    background-color: var(--primary-white);
+    padding: 30px;
+    font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    @media (max-width: 1023px) {
+      padding: 20px;
+    }
+    @media (max-width: 767px) {
+      padding: 15px;
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-black);
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    max-width: 440px;
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  &__lower {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 1023px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__info-row {
+    display: flex;
+  }
+  &__info-cell:nth-child(1) {
+    color: var(--line);
+    flex: 0 0 70px;
+  }
+  &__info-cell {
+    color: var(--primary-black);
+    min-width: max-content;
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    line-height: 0.99;
+    align-self: flex-end;
+  }
+
+  &__link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  &__link-image {
+    background-color: var(--primary);
+    padding: 6.18px;
+    border-radius: 5.25px;
+  }
+}

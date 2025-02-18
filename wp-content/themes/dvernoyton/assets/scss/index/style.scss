@@ -1,0 +1,240 @@
+.categories {
+  padding: 62px 0;
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+  &__title {
+    color: var(--primary-black);
+    margin-bottom: 50px;
+    @media (max-width: 1023px) {
+      margin-bottom: 40px;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__item {
+    flex: 1 1 20%;
+    padding: 24px 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    max-width: calc(25% - 10px);
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @media (max-width: 1023px) {
+      flex: 1 1 40%;
+      max-width: calc(50% - 10px);
+    }
+    @media (max-width: 424px) {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: var(--transition);
+    background-color: hsla(0, 0%, 0%, 0.4);
+  }
+
+  &__item--bright::before {
+    background-color: hsla(0, 0%, 0%, 0.1);
+  }
+
+  @media (hover: hover) {
+    &__item:hover::before {
+      opacity: 1;
+    }
+    &__item:hover &__item-image {
+      top: -30px;
+      bottom: -90px;
+    }
+  }
+  &__item:active::before {
+    opacity: 1;
+  }
+
+  &__item:active &__item-image {
+    top: -30px;
+    bottom: -90px;
+  }
+
+  &__item--bright &__item-title,
+  &__item--bright &__item-link {
+    color: var(--primary-black);
+  }
+
+  &__item-image {
+    transition: var(--transition);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -120px;
+    z-index: 0;
+    min-height: 100%;
+  }
+
+  &__item-title {
+    transition: var(--transition);
+    position: relative;
+    color: var(--primary-white);
+    font-family: var(--TildaSans);
+    font-size: 28px;
+    z-index: 2;
+    font-weight: 700;
+    @media (max-width: 1023px) {
+      font-size: 20px;
+    }
+  }
+
+  &__item-link {
+    transition: var(--transition);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 20px;
+    font-family: var(--TildaSans);
+    color: var(--primary-white);
+    img {
+      margin-top: 3px;
+    }
+  }
+  &__item-link::after {
+    z-index: 3;
+    position: absolute;
+    inset: 0;
+    content: "";
+  }
+}
+
+.priority {
+  padding: 69px 0 52px;
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+  &__title {
+    color: var(--primary-black);
+    line-height: .99;
+    margin-bottom: 50px;
+    @media (max-width: 1023px) {
+      margin-bottom: 40px;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+  &__container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .swiper-slide {
+  }
+  &__left {
+    flex: 1 1 542px;
+    padding-bottom: 38px;
+    @media (max-width: 767px) {
+      flex: 1 1 auto;
+    }
+  }
+  .swiper {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    // CSS Grid/Flexbox bug size workaround
+    // @see https://github.com/kenwheeler/slick/issues/982
+    // @see https://github.com/nolimits4web/swiper/issues/3599
+    min-height: 0;
+    min-width: 0;
+  }
+
+  &__image {
+    height: 469px;
+    border-radius: 6px;
+    overflow: hidden;
+    @media (max-width: 767px) {
+      height: 300px;
+    }
+  }
+
+  &__right {
+    flex: 1 2 773px;
+    padding: 30px 35px;
+    @media (max-width: 1023px) {
+      padding: 0;
+    }
+    @media (max-width: 767px) {
+      flex: 1 1 auto;
+    }
+  }
+
+  &__text {
+    font-family: var(--TildaSans);
+    color: var(--line);
+  }
+
+  &__list {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    @media (max-width: 1023px) {
+      gap: 30px;
+    }
+    @media (max-width: 767px) {
+      width: fit-content;
+      margin-top: 30px;
+      gap: 20px;
+    }
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 33px 0;
+    font-size: 24px;
+    font-family: var(--TildaSans);
+
+    @media (max-width: 1023px) {
+      padding: 0;
+      font-size: 20px;
+    }
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.swiper-wrapper {
+}
+
+.swiper-pagination {
+}

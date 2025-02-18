@@ -1,0 +1,239 @@
+.offer {
+  padding: 70px 0;
+}
+@media (max-width: 1023px) {
+  .offer {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .offer {
+    padding: 30px 0;
+  }
+}
+.offer__container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .offer__container {
+    gap: 40px;
+    flex-direction: column;
+  }
+}
+.offer__left {
+  flex: 0 1 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+@media (max-width: 767px) {
+  .offer__left {
+    flex: 1 1 auto;
+    gap: 40px;
+  }
+}
+.offer__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--primary-black);
+}
+.offer__text {
+  margin-top: 30px;
+  font-family: var(--TildaSans);
+  color: var(--line);
+}
+@media (max-width: 767px) {
+  .offer__text {
+    margin-top: 20px;
+  }
+}
+.offer__button {
+  color: var(--primary-white);
+  background-color: var(--primary);
+  max-width: 280px;
+  min-height: 62px;
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .offer__button {
+    margin-top: 20px;
+  }
+}
+.offer__right {
+  flex: 0 1 547px;
+  min-width: 436px;
+}
+@media (max-width: 1023px) {
+  .offer__right {
+    min-width: 380px;
+  }
+}
+@media (max-width: 767px) {
+  .offer__right {
+    flex: 1 1 auto;
+    min-width: auto;
+  }
+}
+.offer__clients {
+  margin-top: 46px;
+  justify-content: flex-start;
+}
+@media (max-width: 1023px) {
+  .offer__clients {
+    margin-top: 30px;
+    justify-content: center;
+  }
+}
+
+.advantages {
+  padding: 70px 0;
+}
+@media (max-width: 1023px) {
+  .advantages {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .advantages {
+    padding: 30px 0;
+  }
+}
+.advantages__title {
+  color: var(--primary-black);
+}
+.advantages__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+@media (max-width: 1023px) {
+  .advantages__container {
+    margin-top: 40px;
+    gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .advantages__container {
+    margin-top: 30px;
+  }
+}
+.advantages__item {
+  flex: 1 1 40%;
+  max-width: calc(50% - 10px);
+  background-color: var(--primary);
+  border-radius: 13px;
+  padding: 30px 30px 40px;
+}
+@media (max-width: 1023px) {
+  .advantages__item {
+    padding: 20px 20px 30px;
+  }
+}
+@media (max-width: 500px) {
+  .advantages__item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .advantages__item-image {
+    width: 60px;
+  }
+}
+.advantages__item-title {
+  margin-top: 87px;
+}
+@media (max-width: 767px) {
+  .advantages__item-title {
+    margin-top: 40px;
+  }
+}
+.advantages__item-text {
+  font-family: var(--TildaSans);
+  margin-top: 10px;
+  color: var(--primary-white);
+}
+
+.certificates {
+  padding: 70px 0;
+}
+@media (max-width: 1023px) {
+  .certificates {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .certificates {
+    padding: 30px 0;
+  }
+}
+.certificates__title {
+  color: var(--primary-black);
+}
+.certificates__container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+@media (max-width: 1023px) {
+  .certificates__container {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .certificates__container {
+    margin-top: 30px;
+    gap: 30px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .certificates__item--hidden {
+    display: none;
+  }
+}
+.certificates__button {
+  display: none;
+  background-color: var(--primary);
+  color: var(--primary-white);
+  margin: 30px auto;
+}
+@media (max-width: 767px) {
+  .certificates__button {
+    display: flex;
+  }
+}
+.certificates__item {
+  flex: 1 1 20%;
+  max-width: calc(25% - 15px);
+}
+@media (max-width: 1023px) {
+  .certificates__item {
+    flex: 1 1 30%;
+    max-width: calc(33% - 10px);
+  }
+}
+@media (max-width: 424px) {
+  .certificates__item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+.certificates__item-image {
+  border-radius: 14px;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.certificates__item-title {
+  margin-top: 16px;
+  font-family: var(--TildaSans);
+}

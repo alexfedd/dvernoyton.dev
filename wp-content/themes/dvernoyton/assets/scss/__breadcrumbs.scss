@@ -1,0 +1,43 @@
+.breadcrumbs {
+  padding-top: 60px;
+  display: flex;
+  column-gap: 13px;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__link {
+    font-family: "Montserrat", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    font-weight: 500;
+    color: var(--line);
+    line-height: 155%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    @mixin hover {
+      &:hover {
+        color: var(--primary);
+      }
+      &:hover img {
+        filter: invert(54%) sepia(99%) saturate(6678%) hue-rotate(194deg)
+          brightness(95%) contrast(104%);
+      }
+    }
+    @media (hover: hover) {
+      @include hover;
+    }
+    &:active {
+      @include hover;
+    }
+  }
+
+  &__sep {
+    font-family: "Montserrat", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    user-select: none;
+    font-weight: 500;
+    color: var(--line);
+    line-height: 155%;
+  }
+}

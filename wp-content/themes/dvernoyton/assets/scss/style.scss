@@ -1,0 +1,204 @@
+@import "./reset.css";
+
+@import "./fonts.css";
+
+:root {
+  --primary-black: #1a1a1a;
+  --base-black-bg: #232324;
+  --primary-white: #f8f8f8;
+  --base-bg: #eef1f5;
+  --line: #999999;
+  --link: #cecece;
+  --primary: #0071d8;
+  --primary-hover: #015cb1;
+  --TildaSans: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  --MontSerrat: "Montserrat", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  --transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+[data-aos] {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primary-white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Onest", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  @media (max-width: 1023px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media (max-width: 767px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.main {
+  flex: 1 0 auto;
+  overflow-x: hidden;
+}
+
+.image-wrapper {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  &__image {
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+
+.solid-button {
+  background-color: var(--primary-white);
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--primary);
+      color: var(--primary-white);
+    }
+  }
+  @media (max-width: 1023px) {
+    max-width: 170px !important;
+    min-height: 44px !important;
+  }
+  &:active {
+    color: var(--primary-white);
+    background-color: var(--primary-hover);
+  }
+}
+
+.title-1 {
+  font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--primary-white);
+  text-transform: uppercase;
+  span {
+    font-weight: 700;
+  }
+  @media (max-width: 1023px) {
+    font-size: 28px;
+  }
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
+}
+
+.title-h2 {
+  font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 32px;
+  color: var(--primary-white);
+  font-weight: 600;
+  span {
+    font-weight: 700;
+  }
+  @media (max-width: 1023px) {
+    font-size: 28px;
+  }
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
+}
+
+.qna {
+  position: relative;
+  width: fit-content;
+
+  &__button {
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    background-color: var(--primary-white);
+    min-width: 10px;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    transform: translate(50%, -50%);
+  }
+
+  &__button:hover ~ &__modal {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &__modal {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: var(--base-black-bg);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: max-content;
+    max-width: min(420px, 100vw);
+    left: 100%;
+    top: 5px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: var(--primary-white);
+    @media (max-width: 767px) {
+      left: 0;
+      right: 0;
+    }
+  }
+  &__modal:hover {
+    visibility: hidden;
+  }
+}
+
+@import "./_breadcrumbs";
+
+@import "./item-card";
+
+@import "./clients";
+
+@import "./projects";
+
+@import "./callback-form";
+
+@import "./dealers-banner";
+
+@import "./catalog-item";
+
+@import "./main-banner";
+
+@import "./doors-info";
+
+@import "./header";
+
+@import "./footer";

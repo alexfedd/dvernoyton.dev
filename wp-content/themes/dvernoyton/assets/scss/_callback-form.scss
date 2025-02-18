@@ -1,0 +1,215 @@
+.callback-form {
+  background-color: var(--primary-black);
+  padding: 100px 0 76px;
+  @media (max-width: 1023px) {
+    padding: 70px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    @media (max-width: 1023px) {
+      gap: 80px;
+    }
+    @media (max-width: 767px) {
+      gap: 53px;
+      flex-direction: column;
+    }
+  }
+
+  &__form {
+    max-width: 700px;
+    width: 100%;
+    @media (max-width: 1023px) {
+      margin-top: 25px;
+    }
+  }
+
+  &__input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 1023px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+
+  &__input-wrapper + &__input-wrapper {
+    margin-top: 20px;
+  }
+
+  &__label {
+    font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    font-size: 20px;
+    flex: 0 0 180px;
+    @media (max-width: 1023px) {
+      flex: 1 1 auto;
+    }
+    color: var(--primary-white);
+  }
+  .iti {
+    max-width: 451px;
+    width: 100%;
+    @media (max-width: 767px) {
+      max-width: 600px;
+    }
+  }
+  &__input {
+    background-color: var(--base-black-bg);
+    padding: 25px 35px;
+    font-size: 20px;
+    font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    border-radius: 10px;
+    color: var(--primary-white);
+    max-width: 451px;
+    width: 100%;
+    @media (max-width: 1023px) {
+      padding: 16px 15px;
+      font-size: 16px;
+    }
+    @media (max-width: 767px) {
+      max-width: 600px;
+    }
+  }
+  &__input::placeholder {
+    color: var(--line);
+  }
+
+  &__lower {
+    max-width: 451px;
+    margin-left: auto;
+    margin-top: 30px;
+    @media (max-width: 767px) {
+      margin-left: 0;
+    }
+  }
+
+  &__policy {
+    user-select: none;
+    position: relative;
+    padding-left: 30px;
+    color: var(--line);
+    font-size: 14px;
+    font-family: var(--TildaSans), sans-serif;
+    a {
+      text-decoration: underline;
+    }
+    input {
+      position: absolute;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+  }
+
+  &__policy::after {
+    position: absolute;
+    transition: var(--transition);
+    background-image: url("/wp-content/themes/dvernoyton/assets/images/svg/checkbox-checked.svg");
+    background-repeat: no-repeat;
+    background-position: center -8px;
+    content: "";
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--primary);
+  }
+
+  &__policy:has(input:checked)::after {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    background-position: center center;
+  }
+
+  &__button {
+    max-width: 197px;
+    height: 47px;
+    margin-top: 30px;
+  }
+
+  &__contacts {
+    max-width: 433px;
+
+    width: 100%;
+    @media (max-width: 1023px) {
+      align-self: flex-end;
+    }
+    @media (max-width: 767px) {
+      align-self: stretch;
+    }
+  }
+
+  &__title {
+    font-size: 32px;
+    color: var(--primary-white);
+    font-family: var(--TildaSans), sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    span {
+      font-weight: 600;
+    }
+    @media (max-width: 1023px) {
+      font-size: 28px;
+      display: none;
+    }
+  }
+  &__title--mobile {
+    display: none;
+    @media (max-width: 1023px) {
+      display: block;
+    }
+  }
+
+  &__subtitle {
+    margin-top: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 14px;
+    color: var(--primary-white);
+    @media (max-width: 1023px) {
+      padding-left: 0;
+      margin-top: 0;
+    }
+  }
+
+  &__contact {
+    margin-top: 26px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+    gap: 20px;
+    color: var(--primary-white);
+    @media (max-width: 1023px) {
+      padding-left: 0;
+    }
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--primary);
+      }
+    }
+    &:active {
+      color: var(--primary-hover);
+    }
+  }
+
+  &__contact + &__contact {
+    margin-top: 10px;
+  }
+
+  &__contact-image {
+  }
+}

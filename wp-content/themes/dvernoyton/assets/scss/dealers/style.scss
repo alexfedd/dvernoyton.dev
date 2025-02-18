@@ -1,0 +1,107 @@
+body {
+  background-color: var(--primary-black);
+}
+
+.dealer-steps {
+  padding: 53px 0;
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+  &__title {
+  }
+
+  &__items {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+    @media (max-width: 1023px) {
+      gap: 10px;
+      margin-top: 22px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    padding: 40px 35px;
+    background-color: var(--base-black-bg);
+    border-radius: 13px;
+    min-height: 242px;
+    overflow: hidden;
+    flex: 1 1 40%;
+    @media (max-width: 1023px) {
+      padding: 25px 20px;
+    }
+    @media (max-width: 767px) {
+      flex: 1 1 100%;
+    }
+  }
+
+  &__item-title {
+    font-family: var(--TildaSans);
+    font-size: 32px;
+    color: var(--primary-white);
+    font-weight: 600;
+    @media (max-width: 1023px) {
+      font-size: 28px;
+    }
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+
+  &__item-text {
+    max-width: 527px;
+    font-family: var(--TildaSans);
+    color: var(--primary-white);
+    margin-top: 15px;
+  }
+
+  &__item-lower {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    @media (max-width: 1439px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    @media (max-width: 1023px) {
+      margin-top: 30px;
+      gap: 20px;
+    }
+  }
+
+  &__item-button {
+    min-height: 62px;
+    max-width: 280px;
+    font-weight: 600;
+    font-size: 14px;
+    @media (max-width: 1023px) {
+      max-width: 175px;
+      min-height: 44px;
+    }
+  }
+
+  &__item-image {
+    position: absolute;
+    inset: 0;
+  }
+  &__item-phone {
+    font-family: var(--TildaSans);
+    color: var(--primary-white);
+    font-weight: 600;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:active {
+      color: var(--primary-hover);
+    }
+    @media (hover: hover) {
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+}
