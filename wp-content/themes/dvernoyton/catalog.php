@@ -141,6 +141,7 @@ $query = new WP_Query( $args );
                               if ( strpos( $term_name, ';' ) !== false ) {
                                   $parts = explode( ';', $term_name );
                                   $term_name = trim( $parts[0] );
+                                  $term_name .= ' (' . trim( $parts[1] ) . 'р.)';
                               }
                               ?>
                               <label for="<?php echo $input_id; ?>" class="catalog__filter-label">
