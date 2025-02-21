@@ -58,7 +58,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
 
           ?>
           
-          <picture class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $img_url ); ?>">
+          <picture data-fancybox="gallery" class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $img_url ); ?>">
             <img draggable="false" src="<?php echo esc_url( $img_url ); ?>" alt="Изображение" class="image-wrapper__image" />
           </picture>
           <?
@@ -125,16 +125,13 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
           <div class="product-banner__selection">
             <p class="product-banner__text">Наличник:</p>
             <div class="product-banner__selectors">
-              <label for="nal_0" class="product-banner__label">
-                <input type="radio" checked name="nalichnik" id="nalichnik1" />
-                <span class="product-banner__label-text">Без наличника</span>
-              </label>
               <? foreach ( $nal_terms as $term ) : ?>
                 <?
                   $term_name = $term->name;
                   if ( strpos( $term_name, ';' ) !== false ) {
                       $parts = explode( ';', $term_name );
                       $term_name = trim( $parts[0] );
+                      $term_name .= ' (' . trim( $parts[1] ) . 'р.)'
                   }  
                 ?>
                 <label for="nal_<?php echo esc_attr( $term->slug ); ?>" class="product-banner__label">
