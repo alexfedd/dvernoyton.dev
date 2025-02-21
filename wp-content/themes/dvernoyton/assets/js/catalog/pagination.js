@@ -41,6 +41,12 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Обновляем текущие фильтры
     currentFilters = collectFilters();
+
+    // Если в URL есть параметр "cat", добавляем его
+    const catParam = getUrlParameter("cat");
+    if (catParam) {
+      currentFilters['категория'] = catParam;
+    }
     // Сбрасываем контент каталога и пагинацию
     document.querySelector('.catalog__items').innerHTML = "";
     currentPage = 1; // начинаем с первой страницы

@@ -347,6 +347,17 @@ function filter_products_callback() {
           'operator' => 'IN',
       ];
   }
+
+  // Обработка выбранной категории (если передан параметр "категория")
+  if ( ! empty( $filters['категория'] ) ) {
+    // Предполагаем, что в filters['категория'] передаётся slug категории
+    $tax_query[] = [
+        'taxonomy' => 'product_cat',
+        'field'    => 'slug',
+        'terms'    => $filters['категория'],
+        'operator' => 'IN',
+    ];
+  }
   
   // 7. Фильтр "Дополнительные опции" – атрибут, таксономия pa_dopolnitelnie_opcii
   if ( ! empty( $filters['дополнительные опции'] ) ) {
