@@ -57,7 +57,7 @@ $allPartners = $result['allPartners'];
           <div class="map-item__map" id="map"></div>
         </div>
       </section>
-      <section class="clients">
+      <!-- <section class="clients">
         <div class="container clients__container clients-items">
           <div
             class="clients-items__item clients-filter clients-filter--active"
@@ -143,7 +143,7 @@ $allPartners = $result['allPartners'];
             />
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="projects">
         <div class="container projects__container">
           <? $counter = false; ?>

@@ -1,6 +1,10 @@
 <?
 // Template Name: Главная страница
 get_header('banner');
+$result = get_projects(4);
+
+// Массивы с данными
+$projects = $result['projects'];
 ?>
 
     <main class="main">
@@ -105,7 +109,7 @@ get_header('banner');
               />
             </picture>
             <h3 class="categories__item-title">Композитные двери</h3>
-            <a href="/catalog" class="categories__item-link"
+            <a href="/catalog/?cat=composite" class="categories__item-link"
               >Перейти в раздел
               <img src="/wp-content/themes/dvernoyton/assets/images/svg/index/item-arrow.svg" alt=""
             /></a>
@@ -120,7 +124,7 @@ get_header('banner');
               />
             </picture>
             <h3 class="categories__item-title">Двери из нержавеющей стали</h3>
-            <a href="/catalog" class="categories__item-link"
+            <a href="/catalog/?cat=stainless" class="categories__item-link"
               >Перейти в раздел
               <img src="/wp-content/themes/dvernoyton/assets/images/svg/index/item-arrow.svg" alt=""
             /></a>
@@ -135,7 +139,7 @@ get_header('banner');
               />
             </picture>
             <h3 class="categories__item-title">Фурнитура</h3>
-            <a href="/catalog" class="categories__item-link"
+            <a href="/catalog/&cat=furniture" class="categories__item-link"
               >Перейти в раздел
               <img src="/wp-content/themes/dvernoyton/assets/images/svg/index/item-arrow.svg" alt=""
             /></a>
@@ -150,7 +154,7 @@ get_header('banner');
               />
             </picture>
             <h3 class="categories__item-title">Аксессуары</h3>
-            <a href="/catalog" class="categories__item-link"
+            <a href="/catalog/?cat=accessories" class="categories__item-link"
               >Перейти в раздел
               <img src="/wp-content/themes/dvernoyton/assets/images/svg/index/item-arrow-blackl.svg" alt=""
             /></a>
@@ -234,158 +238,47 @@ get_header('banner');
           </h2>
         </div>
         <div class="container projects__container">
-          <article
-            class="projects__item item-card"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <picture
-              class="image-wrapper item-card__image item-card__image--white-bg"
+        <? $counter = false; ?>
+          <?php foreach ($projects as $project) : ?>
+            <article
+              class="projects__item item-card"
+              data-aos="fade-up"
+              data-aos-delay="<?echo $counter ? '500' : '100'?>"
             >
-              <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/projects/proj-4.jpg"
-                alt=""
-                class="image-wrapper__image"
-              />
-            </picture>
-            <div class="item-card__content">
-              <h2 class="item-card__title">
-                Производство и поставка дверей для поликлиники по Гос. Программе
-              </h2>
-              <div class="item-card__lower">
-                <div class="item-card__info">
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Дверь:</p>
-                    <a href="#" class="item-card__info-cell">Название двери</a>
+              <picture class="image-wrapper item-card__image">
+                <img
+                  src="<?php echo $project['image']?>"
+                  alt="<?php echo $project['imageAlt']?>"
+                  title="<?php echo $project['imageTitle']?>"
+                  class="image-wrapper__image"
+                />
+              </picture>
+              <div class="item-card__content">
+                <h2 class="item-card__title">
+                <?php echo $project['title']?>
+                </h2>
+                <div class="item-card__lower">
+                  <div class="item-card__info">
+                    <div class="item-card__info-row">
+                      <p class="item-card__info-cell">Дверь:</p>
+                      <a href="#" class="item-card__info-cell"><?php echo $project['door']?></a>
+                    </div>
+                    <div class="item-card__info-row">
+                      <p class="item-card__info-cell">Регион:</p>
+                      <p class="item-card__info-cell"><?php echo $project['region']?></p>
+                    </div>
                   </div>
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Регион:</p>
-                    <p class="item-card__info-cell">Московская область</p>
-                  </div>
+                  <a href="#" class="item-card__link"
+                    >Смотреть
+                    <picture class="item-card__link-image">
+                      <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />
+                    </picture>
+                  </a>
                 </div>
-                <a href="#" class="item-card__link"
-                  >Смотреть
-                  <picture class="item-card__link-image">
-                    <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />
-                  </picture>
-                </a>
               </div>
-            </div>
-          </article>
-          <article
-            class="projects__item item-card"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <picture
-              class="image-wrapper item-card__image item-card__image--white-bg"
-            >
-              <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/projects/proj-4.jpg"
-                alt=""
-                class="image-wrapper__image"
-              />
-            </picture>
-            <div class="item-card__content">
-              <h2 class="item-card__title">
-                Производство и поставка дверей для поликлиники по Гос. Программе
-              </h2>
-              <div class="item-card__lower">
-                <div class="item-card__info">
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Дверь:</p>
-                    <a href="#" class="item-card__info-cell">Название двери</a>
-                  </div>
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Регион:</p>
-                    <p class="item-card__info-cell">Московская область</p>
-                  </div>
-                </div>
-                <a href="#" class="item-card__link"
-                  >Смотреть
-                  <picture class="item-card__link-image">
-                    <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />
-                  </picture>
-                </a>
-              </div>
-            </div>
-          </article>
-          <article
-            class="projects__item item-card"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <picture
-              class="image-wrapper item-card__image item-card__image--white-bg"
-            >
-              <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/projects/proj-4.jpg"
-                alt=""
-                class="image-wrapper__image"
-              />
-            </picture>
-            <div class="item-card__content">
-              <h2 class="item-card__title">
-                Производство и поставка дверей для поликлиники по Гос. Программе
-              </h2>
-              <div class="item-card__lower">
-                <div class="item-card__info">
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Дверь:</p>
-                    <a href="#" class="item-card__info-cell">Название двери</a>
-                  </div>
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Регион:</p>
-                    <p class="item-card__info-cell">Московская область</p>
-                  </div>
-                </div>
-                <a href="#" class="item-card__link"
-                  >Смотреть
-                  <picture class="item-card__link-image">
-                    <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />
-                  </picture>
-                </a>
-              </div>
-            </div>
-          </article>
-          <article
-            class="projects__item item-card"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <picture
-              class="image-wrapper item-card__image item-card__image--white-bg"
-            >
-              <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/projects/proj-4.jpg"
-                alt=""
-                class="image-wrapper__image"
-              />
-            </picture>
-            <div class="item-card__content">
-              <h2 class="item-card__title">
-                Производство и поставка дверей для поликлиники по Гос. Программе
-              </h2>
-              <div class="item-card__lower">
-                <div class="item-card__info">
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Дверь:</p>
-                    <a href="#" class="item-card__info-cell">Название двери</a>
-                  </div>
-                  <div class="item-card__info-row">
-                    <p class="item-card__info-cell">Регион:</p>
-                    <p class="item-card__info-cell">Московская область</p>
-                  </div>
-                </div>
-                <a href="#" class="item-card__link"
-                  >Смотреть
-                  <picture class="item-card__link-image">
-                    <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />
-                  </picture>
-                </a>
-              </div>
-            </div>
-          </article>
+            </article>
+          <? $counter = !$counter;?>
+          <?php endforeach; ?>
         </div>
       </section>
 

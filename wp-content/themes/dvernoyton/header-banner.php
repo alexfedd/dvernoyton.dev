@@ -107,11 +107,19 @@
             <details class="mobile-menu__navigation-link">
               <summary class="mobile-menu__summary">Продукция</summary>
               <nav class="mobile-menu__doors">
-                <a href="/#" class="mobile-menu__doors-link">Что-то</a>
-                <a href="/#" class="mobile-menu__doors-link">Что-то</a>
-                <a href="/#" class="mobile-menu__doors-link">Что-то</a>
-                <a href="/#" class="mobile-menu__doors-link">Что-то</a>
-                <a href="/#" class="mobile-menu__doors-link">Что-то</a>
+                <?php
+                  if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
+                    foreach ( $product_categories as $category ) {
+                      // Пропускаем категорию 'Uncategorized'
+                      if ( 'uncategorized' === $category->slug ) {
+                        continue;
+                      }
+                      // Формируем ссылку вида: /catalog/?cat=slug_категории
+                      $cat_link = add_query_arg( 'cat', $category->slug, '/catalog/' );
+                      echo '<a href="' . esc_url( $cat_link ) . '" class="mobile-menu__doors-link">' . esc_html( $category->name ) . '</a>';
+                    }
+                  }
+                ?>
               </nav>
             </details>
             <a href="/about" class="mobile-menu__navigation-link"

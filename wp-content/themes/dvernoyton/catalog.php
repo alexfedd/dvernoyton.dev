@@ -137,10 +137,15 @@ $query = new WP_Query( $args );
                           // Для каждого термина выводим чекбокс
                           foreach ( $terms as $term ) {
                               $input_id = esc_attr( $taxonomy . '_' . $term->slug );
+                              $term_name = $term->name;
+                              if ( strpos( $term_name, ';' ) !== false ) {
+                                  $parts = explode( ';', $term_name );
+                                  $term_name = trim( $parts[0] );
+                              }
                               ?>
                               <label for="<?php echo $input_id; ?>" class="catalog__filter-label">
                                 <input type="checkbox" id="<?php echo $input_id; ?>" class="catalog__filter-input" value="<?php echo esc_attr( $term->slug ); ?>">
-                                <span class="catalog__filter-text"><?php echo esc_html( $term->name ); ?></span>
+                                <span class="catalog__filter-text"><?php echo esc_html( $term_name ); ?></span>
                               </label>
                               <?php
                           }
@@ -215,7 +220,7 @@ $query = new WP_Query( $args );
                 endwhile;
                 wp_reset_postdata();
             else :
-                echo '<p>Товары не найдены.</p>';
+                echo '<p class="catalog__placeholder">Товары не найдены.</p>';
             endif;
             ?>
           </div>

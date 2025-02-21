@@ -29,6 +29,7 @@ body {
     z-index: 2;
     position: relative;
     font-size: 48px;
+    max-width: 70%;
     letter-spacing: -0.25;
     line-height: 87.5%;
     font-weight: 600;
@@ -187,8 +188,7 @@ body {
     width: 16px;
     height: 16px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 3px;
     left: 0;
     border: 1px solid var(--line);
   }

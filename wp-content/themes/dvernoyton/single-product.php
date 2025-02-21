@@ -11,6 +11,8 @@ if ( ! is_object( $product ) ) {
     $product = wc_get_product( get_the_ID() );
 }
 
+$terms = get_the_terms( get_the_ID(), 'product_cat' );
+
 ?>
 <main class="main product-page">
   <!-- Хлебные крошки -->
@@ -20,7 +22,22 @@ if ( ! is_object( $product ) ) {
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/home.svg" alt="Главная" />
       </a>
       <span class="breadcrumbs__sep">/</span>
-      <a href="<?php echo site_url('/catalog'); ?>" class="breadcrumbs__link">Композитные двери</a>
+      <?
+        if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
+            // Берем первую категорию
+            $term = array_shift( $terms );
+            ?>
+            <a href="/catalog/?cat=<?echo $term->slug?>" class="breadcrumbs__link">
+              <?php echo esc_html( $term->name ); ?>
+            </a>
+            <?php
+        } else {
+            // Если нет категорий, выводим стандартную ссылку
+            ?>
+            <a href="<?php echo site_url('/catalog'); ?>" class="breadcrumbs__link">Каталог</a>
+            <?php
+        }
+      ?>
       <span class="breadcrumbs__sep">/</span>
       <span class="breadcrumbs__link"><?php the_title(); ?></span>
     </section>
@@ -37,8 +54,21 @@ if ( ! is_object( $product ) ) {
 
       if ( ! empty( $gallery_ids ) ) {
           // Выводим галерею миниатюр
+          $img_url = wp_get_attachment_image_url( $gallery_ids[0], 'large' );
+
+          ?>
+          
+          <picture class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $img_url ); ?>">
+            <img draggable="false" src="<?php echo esc_url( $img_url ); ?>" alt="Изображение" class="image-wrapper__image" />
+          </picture>
+          <?
           echo '<div class="product-banner__images">';
+          $isFirst = true;
           foreach ( $gallery_ids as $image_id ) {
+              if($isFirst) {
+                $isFirst = false;
+                continue;
+              }
               $img_url = wp_get_attachment_image_url( $image_id, 'large' );
               ?>
               <picture data-fancybox="gallery" data-src="<?php echo esc_url( $img_url ); ?>" class="product-banner__image image-wrapper__image">
@@ -72,55 +102,49 @@ if ( ! is_object( $product ) ) {
 
         <!-- Форма с выбором опций -->
         <form class="product-banner__info">
+          <?php
+          $size_terms = wp_get_post_terms( get_the_ID(), 'pa_razmer' );
+          if ( ! empty( $size_terms ) && ! is_wp_error( $size_terms ) ) : 
+          ?>
           <div class="product-banner__selection">
             <p class="product-banner__text">Размер по полотну:</p>
             <div class="product-banner__selectors">
-              <?php
-              // Если размеры задаются как атрибут, например, pa_razmer
-              $size_terms = wp_get_post_terms( get_the_ID(), 'pa_razmer' );
-              if ( ! empty( $size_terms ) && ! is_wp_error( $size_terms ) ) {
-                  foreach ( $size_terms as $term ) {
-                      ?>
-                      <label for="size_<?php echo esc_attr( $term->slug ); ?>" class="product-banner__label">
-                        <input type="radio" name="size" id="size_<?php echo esc_attr( $term->slug ); ?>" <?php if( $term === reset( $size_terms ) ) echo 'checked'; ?> />
-                        <span class="product-banner__label-text"><?php echo esc_html( $term->name ); ?></span>
-                      </label>
-                      <?php
-                  }
-              } else {
-                  // Если атрибут не задан, можно вывести статичные варианты (как запасной вариант)
-                  ?>
-                  <label for="size1" class="product-banner__label">
-                    <input type="radio" checked name="size" id="size1" />
-                    <span class="product-banner__label-text">2000 х 1200</span>
-                  </label>
-                  <label for="size2" class="product-banner__label">
-                    <input type="radio" name="size" id="size2" />
-                    <span class="product-banner__label-text">2000 х 1200 (+2 000р.)</span>
-                  </label>
-                  <?php
-              }
-              ?>
+              <? foreach ( $size_terms as $term ) : ?>
+                <label for="size_<?php echo esc_attr( $term->slug ); ?>" class="product-banner__label">
+                  <input type="radio" name="size" id="size_<?php echo esc_attr( $term->slug ); ?>" <?php if( $term === reset( $size_terms ) ) echo 'checked'; ?> />
+                  <span class="product-banner__label-text"><?php echo esc_html( $term->name ); ?></span>
+                </label>
+              <? endforeach;?>    
             </div>
           </div>
-
+          <? endif;?>
+          <?php
+          $nal_terms = wp_get_post_terms( get_the_ID(), 'pa_nalichnik' );
+          if ( ! empty( $nal_terms ) && ! is_wp_error( $nal_terms ) ) : 
+          ?>
           <div class="product-banner__selection">
             <p class="product-banner__text">Наличник:</p>
             <div class="product-banner__selectors">
-              <label for="nalichnik1" class="product-banner__label">
+              <label for="nal_0" class="product-banner__label">
                 <input type="radio" checked name="nalichnik" id="nalichnik1" />
                 <span class="product-banner__label-text">Без наличника</span>
               </label>
-              <label for="nalichnik2" class="product-banner__label">
-                <input type="radio" name="nalichnik" id="nalichnik2" />
-                <span class="product-banner__label-text">С одной стороны (+2 250р.)</span>
-              </label>
-              <label for="nalichnik3" class="product-banner__label">
-                <input type="radio" name="nalichnik" id="nalichnik3" />
-                <span class="product-banner__label-text">С двух сторон (+4 500р.)</span>
-              </label>
+              <? foreach ( $nal_terms as $term ) : ?>
+                <?
+                  $term_name = $term->name;
+                  if ( strpos( $term_name, ';' ) !== false ) {
+                      $parts = explode( ';', $term_name );
+                      $term_name = trim( $parts[0] );
+                  }  
+                ?>
+                <label for="nal_<?php echo esc_attr( $term->slug ); ?>" class="product-banner__label">
+                  <input type="radio" name="nal" data-cost="<?echo trim( $parts[1] )?>" id="nal_<?php echo esc_attr( $term->slug ); ?>" <?php if( $term === reset( $nal_terms ) ) echo 'checked'; ?> />
+                  <span class="product-banner__label-text"><?php echo esc_html( $term_name ); ?></span>
+                </label>
+              <? endforeach;?>    
             </div>
           </div>
+          <? endif;?>
 
           <div class="product-banner__selection">
             <p class="product-banner__text">Требуемое кол-во:</p>

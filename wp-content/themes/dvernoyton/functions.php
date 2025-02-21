@@ -118,11 +118,11 @@ function get_quarters() {
   return $quarters;
 }
 
-function get_projects() {
+function get_projects($num = -1) {
   // Получаем все посты типа 'project'
   $args = array(
       'post_type' => 'projects',
-      'posts_per_page' => -1, // Получаем все проекты
+      'posts_per_page' => $num, // Получаем все проекты
   );
 
   $query = new WP_Query($args);

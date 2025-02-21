@@ -36,9 +36,10 @@ const getPostsData = async () => {
     const data = await response.json();
     return data;
   } catch (error) {
-    console.error(response);
+    console.error(error);
   }
 };
+
 
 function init(projects) {
   const map = new ymaps.Map("map", {
@@ -51,7 +52,7 @@ function init(projects) {
   // Обработчик для фильтрации
   filterContainer.addEventListener("click", (e) => {
     onFilterClick(e);
-    filterMapPoints(map, e);
+    //filterMapPoints(map, e);
   });
   map.geoObjects.add(customPlacemark);
 }
@@ -102,47 +103,47 @@ function showProjectDetails(project) {
   ).title = project.imageTitle;
 }
 
-function filterMapPoints(map, e) {
-  let selectedPartner = e.target.closest('.clients-filter');
-  if (!selectedPartner) return;
-  const selectedPartnerId = selectedPartner.getAttribute('data-id')
-  // Фильтрация точек на карте
-  map.geoObjects.each(function (geoObject) {
-    let project = geoObject.projectData;
-    let matchesFilter = true;
-    if (!project.partners.includes(selectedPartnerId)) matchesFilter = false
-    if (selectedPartnerId === 'all') matchesFilter = true;
+// function filterMapPoints(map, e) {
+//   let selectedPartner = e.target.closest('.clients-filter');
+//   if (!selectedPartner) return;
+//   const selectedPartnerId = selectedPartner.getAttribute('data-id')
+//   // Фильтрация точек на карте
+//   map.geoObjects.each(function (geoObject) {
+//     let project = geoObject.projectData;
+//     let matchesFilter = true;
+//     if (!project.partners.includes(selectedPartnerId)) matchesFilter = false
+//     if (selectedPartnerId === 'all') matchesFilter = true;
 
-    geoObject.options.set("visible", matchesFilter);
-  });
+//     geoObject.options.set("visible", matchesFilter);
+//   });
 
-  // // Фильтрация карточек проектов
-  // document.querySelectorAll(".project-items__item").forEach((card) => {
-  //   const cardRegion = card.getAttribute("data-region");
-  //   const cardActivity = card.getAttribute("data-activity");
-  //   let matchesCardFilter = true;
+//   // // Фильтрация карточек проектов
+//   // document.querySelectorAll(".project-items__item").forEach((card) => {
+//   //   const cardRegion = card.getAttribute("data-region");
+//   //   const cardActivity = card.getAttribute("data-activity");
+//   //   let matchesCardFilter = true;
 
-  //   if (
-  //     selectedActivity &&
-  //     selectedActivity !== "Виды деятельности" &&
-  //     cardActivity !== selectedActivity &&
-  //     selectedActivity !== "Все"
-  //   ) {
-  //     matchesCardFilter = false;
-  //   }
+//   //   if (
+//   //     selectedActivity &&
+//   //     selectedActivity !== "Виды деятельности" &&
+//   //     cardActivity !== selectedActivity &&
+//   //     selectedActivity !== "Все"
+//   //   ) {
+//   //     matchesCardFilter = false;
+//   //   }
 
-  //   if (
-  //     selectedRegion &&
-  //     selectedRegion !== "Регион" &&
-  //     cardRegion !== selectedRegion &&
-  //     selectedRegion !== "Все"
-  //   ) {
-  //     matchesCardFilter = false;
-  //   }
+//   //   if (
+//   //     selectedRegion &&
+//   //     selectedRegion !== "Регион" &&
+//   //     cardRegion !== selectedRegion &&
+//   //     selectedRegion !== "Все"
+//   //   ) {
+//   //     matchesCardFilter = false;
+//   //   }
 
-  //   // Показываем или скрываем карточку в зависимости от фильтра
-  //   card.style.display = matchesCardFilter ? "flex" : "none";
-  // });
-}
+//   //   // Показываем или скрываем карточку в зависимости от фильтра
+//   //   card.style.display = matchesCardFilter ? "flex" : "none";
+//   // });
+// }
 
 generateMap();
