@@ -86,13 +86,14 @@ document.addEventListener("DOMContentLoaded", function() {
         loading = false;
       })
       .finally(() => {
-        container.querySelector('.catalog__loading-placeholder').remove();
+        container.querySelector('.catalog__placeholder').remove();
       });
   }
 
   // Бесконечная прокрутка: при достижении низа страницы вызываем загрузку
   function handleScroll() {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+    const container = document.querySelector('.catalog__items');
+    if ((window.innerHeight + window.scrollY) >= container.offsetHeight - 500) {
       loadMoreProducts();
     }
   }
