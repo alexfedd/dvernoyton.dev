@@ -13,7 +13,7 @@ if ( ! empty( $selected_cat ) ) {
 // Формируем аргументы запроса
 $args = [
     'post_type'      => 'product',
-    'posts_per_page' => 24,
+    'posts_per_page' => 12,
     'orderby'        => 'date',
     'order'          => 'DESC',
 ];

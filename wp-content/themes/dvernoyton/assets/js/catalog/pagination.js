@@ -30,16 +30,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Если пользователь нажимает на кнопку "Поиск" фильтров, обновляем currentFilters и сбрасываем пагинацию
   const filterButton = document.querySelector(".catalog__filters-button");
+  const openFilter = document.querySelector(".catalog__filter-button");
+
   filterButton.addEventListener("click", function(e) {
     e.preventDefault();
+    window.scrollTo({top: 0})
     // Тогглим видимость фильтров (если нужно)
-    filterButton.classList.toggle("catalog__filter-button--active");
+    openFilter.classList.toggle("catalog__filter-button--active");
     document.querySelector(".catalog__filters-list").classList.toggle("catalog__filters--opened");
     
     // Обновляем текущие фильтры
     currentFilters = collectFilters();
     // Сбрасываем контент каталога и пагинацию
-    document.querySelector('.catalog__items').innerHTML = "<p>Загрузка...</p>";
+    document.querySelector('.catalog__items').innerHTML = "";
     currentPage = 1; // начинаем с первой страницы
     // Загружаем первую порцию товаров по фильтрам
     loadMoreProducts(true);
@@ -55,7 +58,8 @@ document.addEventListener("DOMContentLoaded", function() {
     formData.append("page", currentPage);
     // Если фильтры применены, отправляем их
     formData.append("filters", JSON.stringify(currentFilters));
-
+    const container = document.querySelector('.catalog__items');
+    container.insertAdjacentHTML('beforeend', '<p class="catalog__placeholder">Загрузка...</p>')
     fetch(myAjax.ajax_url, {
       method: "POST",
       credentials: "same-origin",
@@ -64,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function() {
       .then((response) => response.text())
       .then((data) => {
         // Если reset, заменяем контент; иначе добавляем в конец
-        const container = document.querySelector('.catalog__items');
         if (reset) {
           container.innerHTML = data;
         } else {
@@ -81,6 +84,9 @@ document.addEventListener("DOMContentLoaded", function() {
       .catch((error) => {
         console.error("Ошибка загрузки товаров:", error);
         loading = false;
+      })
+      .finally(() => {
+        container.querySelector('.catalog__loading-placeholder').remove();
       });
   }
 

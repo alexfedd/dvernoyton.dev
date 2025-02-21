@@ -16,4 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("resize", setFiltersHeight);
   setFiltersHeight();
 
+  // Единый обработчик клика по кнопке фильтров
+  filterButton.addEventListener("click", function (e) {
+    e.preventDefault();
+    // Тогглим классы для открытия/закрытия фильтров
+    filterButton.classList.toggle("catalog__filter-button--active");
+    filters.classList.toggle("catalog__filters--opened");
+
+
+  });
 });

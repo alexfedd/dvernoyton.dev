@@ -247,11 +247,20 @@ body {
   gap: 20px;
   row-gap: 50px;
   width: 100%;
+  min-height: 400px;
 }
 @media (max-width: 767px) {
   .catalog__items {
     row-gap: 30px;
   }
+}
+.catalog__placeholder {
+  font-size: 24px;
+  color: var(--primary-white);
+  font-weight: 600;
+  width: 100%;
+  align-self: center;
+  text-align: center;
 }
 .catalog__item {
   flex: 1 1 28%;

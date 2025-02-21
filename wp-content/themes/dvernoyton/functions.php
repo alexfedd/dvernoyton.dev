@@ -279,7 +279,7 @@ function filter_products_callback() {
   // Базовые аргументы запроса
   $args = [
       'post_type'      => 'product',
-      'posts_per_page' => 24,  // для каждой страницы будет 12 товаров
+      'posts_per_page' => 12,  // для каждой страницы будет 12 товаров
       'paged'          => $page,
       'orderby'        => 'date',
       'order'          => 'DESC',
@@ -425,7 +425,7 @@ function filter_products_callback() {
       endwhile;
       wp_reset_postdata();
   else :
-      echo '<p>Товары не найдены.</p>';
+      echo '<p class="catalog__placeholder">Товары не найдены.</p>';
   endif;
   
   $html = ob_get_clean();

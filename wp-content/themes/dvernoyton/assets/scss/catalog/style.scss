@@ -75,6 +75,8 @@ body {
     }
   }
 
+
+
   &__filters {
     flex: 0 0 320px;
     padding: 40px 30px;
@@ -222,9 +224,21 @@ body {
     gap: 20px;
     row-gap: 50px;
     width: 100%;
+    min-height: 400px;
+
     @media (max-width: 767px) {
       row-gap: 30px;
     }
+
+  }
+
+  &__placeholder {
+    font-size: 24px;
+    color: var(--primary-white);
+    font-weight: 600;
+    width: 100%;
+    align-self: center;
+    text-align: center;
   }
 
   &__item {
