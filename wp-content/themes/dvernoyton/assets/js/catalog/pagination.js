@@ -27,7 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     return collectedFilters;
   }
-
+  // Функция для получения параметра из URL
+  function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    const results = regex.exec(window.location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  }
   // Если пользователь нажимает на кнопку "Поиск" фильтров, обновляем currentFilters и сбрасываем пагинацию
   const filterButton = document.querySelector(".catalog__filters-button");
   const openFilter = document.querySelector(".catalog__filter-button");
