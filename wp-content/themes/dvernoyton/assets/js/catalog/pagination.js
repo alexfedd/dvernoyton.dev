@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Бесконечная прокрутка: при достижении низа страницы вызываем загрузку
   function handleScroll() {
     const container = document.querySelector('.catalog__items');
-    if ((window.innerHeight + window.scrollY) >= container.offsetHeight - 500) {
+    if ((window.innerHeight + window.scrollY) >= container.offsetHeight - 500 && (window.innerHeight + window.scrollY) < container.offsetHeight) {
       loadMoreProducts();
     }
   }

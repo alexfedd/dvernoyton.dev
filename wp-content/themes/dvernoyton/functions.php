@@ -425,7 +425,9 @@ function filter_products_callback() {
       endwhile;
       wp_reset_postdata();
   else :
-      echo '<p class="catalog__placeholder">Товары не найдены.</p>';
+      if($page === 1) {
+        echo '<p class="catalog__placeholder">Товары не найдены.</p>';
+      }
   endif;
   
   $html = ob_get_clean();
