@@ -131,7 +131,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
                   if ( strpos( $term_name, ';' ) !== false ) {
                       $parts = explode( ';', $term_name );
                       $term_name = trim( $parts[0] );
-                      $term_name .= ' (' . trim( $parts[1] ) . 'р.)'
+                      $term_name .= ' (' . trim( $parts[1] ) . 'р.)';
                   }  
                 ?>
                 <label for="nal_<?php echo esc_attr( $term->slug ); ?>" class="product-banner__label">
