@@ -4,11 +4,16 @@
 get_header();
 // Получаем выбранную категорию (если есть)
 $selected_cat = isset( $_GET['cat'] ) ? sanitize_text_field( $_GET['cat'] ) : '';
-
+if ( ! empty( $selected_cat ) ) {
+  $term = get_term_by( 'slug', $selected_cat, 'product_cat' );
+  $current_cat_name = $term ? $term->name : 'Каталог';
+} else {
+  $current_cat_name = 'Каталог';
+}
 // Формируем аргументы запроса
 $args = [
     'post_type'      => 'product',
-    'posts_per_page' => 12,
+    'posts_per_page' => 24,
     'orderby'        => 'date',
     'order'          => 'DESC',
 ];
@@ -33,8 +38,8 @@ $query = new WP_Query( $args );
             <img src="/wp-content/themes/dvernoyton/assets/images/svg/home.svg" alt="" />
           </a>
           <span class="breadcrumbs__sep">/</span>
-          <a href="/catalog" class="breadcrumbs__link"
-            >Композитные двери</a
+          <a href="/catalog<?echo $selected_cat?>" class="breadcrumbs__link"
+            ><?echo $current_cat_name?></a
           >
         </section>
       </div>
@@ -42,8 +47,7 @@ $query = new WP_Query( $args );
         <div class="container">
           <div class="catalog-banner__banner">
             <h1 class="catalog-banner__title">
-              Композитные <br />
-              двери
+              <?echo $current_cat_name?>
             </h1>
             <picture class="catalog-banner__image image-wrapper">
               <img
@@ -61,7 +65,33 @@ $query = new WP_Query( $args );
             <button class="catalog__filter-button">Фильтры</button>
             <div class="catalog__filters-list">
               <?php
-              // Получаем все зарегистрированные атрибуты WooCommerce
+              // Если в URL передан параметр cat, предполагается, что это slug категории
+              $current_cat_id = false;
+              if ( isset($_GET['cat']) && ! empty($_GET['cat']) ) {
+                  $current_cat = get_term_by('slug', sanitize_text_field($_GET['cat']), 'product_cat');
+                  if ( $current_cat && ! is_wp_error($current_cat) ) {
+                      $current_cat_id = $current_cat->term_id;
+                  }
+              }
+
+              // Если категория определена, получаем ID товаров из неё
+              $products_in_cat = array();
+              if ( $current_cat_id ) {
+                  $products_in_cat = get_posts( array(
+                      'post_type'      => 'product',
+                      'posts_per_page' => -1,
+                      'tax_query'      => array(
+                          array(
+                              'taxonomy' => 'product_cat',
+                              'field'    => 'term_id',
+                              'terms'    => $current_cat_id,
+                          ),
+                      ),
+                      'fields'         => 'ids'
+                  ) );
+              }
+
+              // Получаем все глобальные атрибуты WooCommerce
               $attribute_taxonomies = wc_get_attribute_taxonomies();
 
               // Список нужных атрибутов по их slug (без префикса "pa_")
@@ -73,39 +103,50 @@ $query = new WP_Query( $args );
                 'cvet',                // "Цвет"
                 'razmer',              // "Размер"
                 'dopolnitelnie_opcii', // "Дополнительные опции"
+                'nalichnik'
               );
 
               if ( ! empty( $attribute_taxonomies ) ) {
-                foreach ( $attribute_taxonomies as $tax ) {
-                  // Получаем slug атрибута (например, "seria")
-                  $attribute_slug = $tax->attribute_name;
-                  if ( ! in_array( $attribute_slug, $allowed_attributes, true ) ) {
-                    continue;
-                  }
-                  // Формируем название таксономии (например, "pa_seria")
-                  $taxonomy = wc_attribute_taxonomy_name( $attribute_slug );
-                  // Получаем термины для данного атрибута
-                  $terms = get_terms( array(
-                    'taxonomy'   => $taxonomy,
-                    'hide_empty' => false,
-                  ) );
+                  foreach ( $attribute_taxonomies as $tax ) {
+                      // Получаем slug атрибута (например, "seria")
+                      $attribute_slug = $tax->attribute_name;
+                      if ( ! in_array( $attribute_slug, $allowed_attributes, true ) ) {
+                          continue;
+                      }
+                      // Формируем название таксономии (например, "pa_seria")
+                      $taxonomy = wc_attribute_taxonomy_name( $attribute_slug );
+                      
+                      // Получаем термины для данного атрибута.
+                      // Если задана категория через GET, ограничиваем термины товарами из неё.
+                      if ( ! empty( $products_in_cat ) ) {
+                          $terms = get_terms( array(
+                              'taxonomy'   => $taxonomy,
+                              'hide_empty' => true,
+                              'object_ids' => $products_in_cat,
+                          ) );
+                      } else {
+                          $terms = get_terms( array(
+                              'taxonomy'   => $taxonomy,
+                              'hide_empty' => false,
+                          ) );
+                      }
 
-                  if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
-                    echo '<div class="catalog__filter">';
-                    echo '<p class="catalog__filter-name">' . esc_html( $tax->attribute_label ) . '</p>';
-                    // Для каждого термина выводим чекбокс
-                    foreach ( $terms as $term ) {
-                      $input_id = esc_attr( $taxonomy . '_' . $term->slug );
-                      ?>
-                      <label for="<?php echo $input_id; ?>" class="catalog__filter-label">
-                        <input type="checkbox" id="<?php echo $input_id; ?>" class="catalog__filter-input" value="<?php echo esc_attr( $term->slug ); ?>">
-                        <span class="catalog__filter-text"><?php echo esc_html( $term->name ); ?></span>
-                      </label>
-                      <?php
-                    }
-                    echo '</div>';
+                      if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
+                          echo '<div class="catalog__filter">';
+                          echo '<p class="catalog__filter-name">' . esc_html( $tax->attribute_label ) . '</p>';
+                          // Для каждого термина выводим чекбокс
+                          foreach ( $terms as $term ) {
+                              $input_id = esc_attr( $taxonomy . '_' . $term->slug );
+                              ?>
+                              <label for="<?php echo $input_id; ?>" class="catalog__filter-label">
+                                <input type="checkbox" id="<?php echo $input_id; ?>" class="catalog__filter-input" value="<?php echo esc_attr( $term->slug ); ?>">
+                                <span class="catalog__filter-text"><?php echo esc_html( $term->name ); ?></span>
+                              </label>
+                              <?php
+                          }
+                          echo '</div>';
+                      }
                   }
-                }
               }
               ?>
 
@@ -124,6 +165,7 @@ $query = new WP_Query( $args );
 
               <button type="button" class="catalog__filters-button solid-button">Поиск</button>
             </div>
+
           </div>
 
           <div class="catalog__items">

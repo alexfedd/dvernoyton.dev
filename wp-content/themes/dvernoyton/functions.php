@@ -32,6 +32,7 @@ function add_assets() {
   if(is_page_template( 'catalog.php' )) {
     wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/catalog/style.css');
     wp_enqueue_script( 'filterbuttonjs', get_template_directory_uri(  ) . '/assets/js/catalog/filterButton.js', array(), null, true);
+    wp_enqueue_script( 'paginationjs', get_template_directory_uri(  ) . '/assets/js/catalog/pagination.js', array(), null, true);
     wp_localize_script( 
       'filterbuttonjs', 
       'myAjax', 
@@ -272,10 +273,14 @@ function filter_products_callback() {
       $filters = json_decode( wp_unslash( $_POST['filters'] ), true );
   }
   
+  // Получаем номер страницы, если передан. Если нет, устанавливаем 1
+  $page = isset( $_POST['page'] ) ? intval( $_POST['page'] ) : 1;
+  
   // Базовые аргументы запроса
   $args = [
       'post_type'      => 'product',
-      'posts_per_page' => 12,
+      'posts_per_page' => 24,  // для каждой страницы будет 12 товаров
+      'paged'          => $page,
       'orderby'        => 'date',
       'order'          => 'DESC',
   ];
