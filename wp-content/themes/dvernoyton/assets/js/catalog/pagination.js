@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
           container.insertAdjacentHTML('beforeend', data);
         }
+        AOS.refreshHard(); // Перезапускаем AOS для новых элементов
         // Если ответ пустой, больше товаров нет
         if (data.trim() === "") {
           noMoreProducts = true;
