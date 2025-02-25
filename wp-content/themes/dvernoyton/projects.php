@@ -167,10 +167,10 @@ $allPartners = $result['allPartners'];
                 </h2>
                 <div class="item-card__lower">
                   <div class="item-card__info">
-                    <div class="item-card__info-row">
+                    <!-- <div class="item-card__info-row">
                       <p class="item-card__info-cell">Дверь:</p>
-                      <a href="#" class="item-card__info-cell"><?php echo $project['door']?></a>
-                    </div>
+                      <a href="#" class="item-card__info-cell"><?php // echo $project['door']?></a>
+                    </div> -->
                     <div class="item-card__info-row">
                       <p class="item-card__info-cell">Регион:</p>
                       <p class="item-card__info-cell"><?php echo $project['region']?></p>
