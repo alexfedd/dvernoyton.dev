@@ -416,7 +416,7 @@ function filter_products_callback() {
               $img_url = wc_placeholder_img_src();
           }
           ?>
-          <article class="catalog__item catalog-item" data-aos="fade-up">
+          <article class="catalog__item catalog-item">
               <a href="<?php the_permalink(); ?>" class="image-wrapper catalog-item__image">
                   <img src="<?php echo esc_url( $img_url ); ?>" draggable="false" alt="<?php the_title_attribute(); ?>" class="image-wrapper__image" />
               </a>
