@@ -64,6 +64,11 @@ function add_assets() {
     return;
   }
 
+  if ( is_singular( 'projects' ) ) {
+    wp_enqueue_style( 'pagestyle.css', get_template_directory_uri() . '/assets/scss/single-project/style.css' );
+    return;
+  }
+
   if(is_page_template( 'projects.php' )) {
     wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/projects/style.css');
     wp_enqueue_script( 'yandexjs', "https://api-maps.yandex.ru/2.1/?lang=ru_RU", array(), null, true);
@@ -189,6 +194,35 @@ register_rest_route('custom/v1', '/projects', array(
     'callback' => 'get_projects',
 ));
 });
+
+
+function get_project_info( $project_id ) {
+  // Получаем заголовок проекта
+  $project = array();
+  $project['title'] = get_the_title( $project_id );
+  
+  // Получаем поля проекта (при условии, что они заданы через ACF)
+  $project['project_object']  = get_field( 'project_object', $project_id );
+  $project['project_address'] = get_field( 'project_address', $project_id );
+  $project['project_time']    = get_field( 'project_time', $project_id );
+  
+  // Получаем повторитель "project_doors"
+  $project['project_doors'] = array();
+  if ( have_rows( 'project_doors', $project_id ) ) {
+      while ( have_rows( 'project_doors', $project_id ) ) {
+          the_row();
+          $door = array();
+          // Получаем ID изображения и имя двери
+          $door['project_doors_image'] = get_sub_field( 'project_doors_image' ); // ожидается ID
+          $door['project_doors_name']  = get_sub_field( 'project_doors_name' );
+          $project['project_doors'][]   = $door;
+      }
+      // Важно: после цикла have_rows() сбрасываем глобальное состояние, если требуется
+      // wp_reset_rows(); // (эта функция не обязательна, если дальше нет повторителей)
+  }
+  
+  return $project;
+}
 
 
 

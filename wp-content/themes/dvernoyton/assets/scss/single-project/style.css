@@ -1,0 +1,123 @@
+.project-banner {
+  padding-top: 70px;
+}
+@media (max-width: 1023px) {
+  .project-banner {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .project-banner {
+    padding: 30px 0;
+  }
+}
+.project-banner__container {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+@media (max-width: 1023px) {
+  .project-banner__container {
+    gap: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .project-banner__container {
+    gap: 40px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+.project-banner__image {
+  flex: 0 1 560px;
+  height: 380px;
+  border-radius: 8px;
+}
+@media (max-width: 767px) {
+  .project-banner__image {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    flex: 1 1 auto;
+  }
+}
+.project-banner__title {
+  font-family: var(--TildaSans);
+  font-size: 28px;
+  color: var(--primary);
+  font-weight: 600;
+}
+.project-banner__row {
+  margin-top: 45px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.project-banner__row + .project-banner__row {
+  margin-top: 15px;
+}
+.project-banner__column:nth-child(1) {
+  min-width: 159px;
+  font-family: var(--TildaSans);
+  font-weight: 600;
+  color: var(--primary-black);
+}
+@media (max-width: 1023px) {
+  .project-banner__column:nth-child(1) {
+    min-width: 120px;
+  }
+}
+.project-banner__column:nth-child(2) {
+  max-width: 204px;
+  font-family: var(--TildaSans);
+  color: var(--primary-black);
+}
+
+.project-doors {
+  padding: 70px 0;
+}
+@media (max-width: 1023px) {
+  .project-doors {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .project-doors {
+    padding: 30px 0;
+  }
+}
+.project-doors__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .project-doors__container {
+    gap: 15px;
+    row-gap: 20px;
+  }
+}
+.project-doors__item {
+  flex: 1 1 20%;
+  max-width: calc(25% - 10px);
+}
+@media (max-width: 767px) {
+  .project-doors__item {
+    flex: 1 1 40%;
+    max-width: calc(50% - 10px);
+  }
+}
+.project-doors__item-image {
+  aspect-ratio: 2/3;
+  border-radius: 8px;
+}
+.project-doors__item-title {
+  margin-top: 25px;
+  font-weight: 600;
+  font-family: var(--TildaSans);
+}
+@media (max-width: 767px) {
+  .project-doors__item-title {
+    margin-top: 15px;
+  }
+}
