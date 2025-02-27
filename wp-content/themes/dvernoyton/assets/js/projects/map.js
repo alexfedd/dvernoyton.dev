@@ -34,7 +34,6 @@ const getPostsData = async () => {
     }
 
     const data = await response.json();
-    console.log(data)
     return data;
   } catch (error) {
     console.error(error);
@@ -59,7 +58,6 @@ function init(projects) {
 }
 
 function createMapPoints(projects, map) {
-  console.log(projects);
   projects.forEach((project) => {
     const coordinates = project?.place.split(", ");
     let placemark = new ymaps.Placemark(
@@ -92,7 +90,7 @@ function createMapPoints(projects, map) {
 function showProjectDetails(project) {
   document.querySelector(".item-card__title").textContent =
     decodeHtmlCharCodes(project.title);
-  document.querySelector("#door-info").textContent = project.door;
+  //document.querySelector("#door-info").textContent = project.door;
   document.querySelector(
     ".map-item__item .item-card__image img"
   ).src = project.image;

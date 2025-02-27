@@ -142,7 +142,7 @@ function get_projects($num = -1) {
           // Добавляем кастомные поля ACF
           $project['place'] = get_field('project_place'); // Пример поля
           $project['region'] = get_field('project_region'); // Пример поля
-          $project['door'] = get_field('project_door'); // Пример поля
+          //$project['door'] = get_field('project_door'); // Пример поля
 
           // Получаем термины таксономии 'project_activity'
           $terms = get_the_terms(get_the_ID(), 'partners');
