@@ -45,7 +45,7 @@ $allPartners = $result['allPartners'];
                     <p class="item-card__info-cell"><?php echo $projects[0]['region']?></p>
                   </div>
                 </div>
-                <a href="#" class="item-card__link"
+                <a href="<?php echo $projects[0]['link']?>" class="item-card__link"
                   >Смотреть
                   <picture class="item-card__link-image">
                     <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />
@@ -176,7 +176,7 @@ $allPartners = $result['allPartners'];
                       <p class="item-card__info-cell"><?php echo $project['region']?></p>
                     </div>
                   </div>
-                  <a href="#" class="item-card__link"
+                  <a href="<?php echo $project['link']?>" class="item-card__link"
                     >Смотреть
                     <picture class="item-card__link-image">
                       <img src="/wp-content/themes/dvernoyton/assets/images/svg/arrow.svg" alt="" />

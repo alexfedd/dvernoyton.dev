@@ -145,12 +145,13 @@ function get_projects( $arg = -1 ) {
 
   if ( $query->have_posts() ) {
       while ( $query->have_posts() ) {
-          $query->the_post(); 
+          $query->the_post();
 
           // Стандартные данные поста
           $project = array(
               'id'    => get_the_ID(),
               'title' => get_the_title(),
+              'link'  => get_permalink(), // Добавляем ссылку на проект
           );
 
           // Добавляем кастомные поля (например, ACF)
@@ -189,10 +190,10 @@ function get_projects( $arg = -1 ) {
 
 // Регистрация REST API маршрута
 add_action('rest_api_init', function() {
-register_rest_route('custom/v1', '/projects', array(
-    'methods'  => 'GET',
-    'callback' => 'get_projects',
-));
+  register_rest_route('custom/v1', '/projects', array(
+      'methods'  => 'GET',
+      'callback' => 'get_projects',
+  ));
 });
 
 
@@ -205,6 +206,7 @@ function get_project_info( $project_id ) {
   $project['project_object']  = get_field( 'project_object', $project_id );
   $project['project_address'] = get_field( 'project_address', $project_id );
   $project['project_time']    = get_field( 'project_time', $project_id );
+  $project['project_main_image']    = get_field( 'project_image', $project_id );
   
   // Получаем повторитель "project_doors"
   $project['project_doors'] = array();

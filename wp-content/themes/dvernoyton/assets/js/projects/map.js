@@ -95,6 +95,7 @@ function showProjectDetails(project) {
   document.querySelector(
     ".map-item__item .item-card__image img"
   ).src = project.image;
+  document.querySelector('.map-item__item a').setAttribute('href', project.link)
   document.querySelector(
     ".map-item__item .item-card__image img"
   ).alt = project.imageAlt;

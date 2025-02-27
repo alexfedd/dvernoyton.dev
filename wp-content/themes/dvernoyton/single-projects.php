@@ -8,19 +8,12 @@ $project_id = get_the_ID();
 
 // Предполагаем, что функция get_project_info() уже определена и возвращает массив с данными проекта
 $project = get_project_info( $project_id );
-
-// Получаем featured image как резерв, если основной проектный снимок не задан в ACF
-$project_main_img = get_the_post_thumbnail_url( $project_id, 'large' );
 ?>
 <main class="main">
   <section class="project-banner">
     <div class="container project-banner__container">
       <picture class="image-wrapper project-banner__image">
-        <?php if ( $project_main_img ) : ?>
-          <img src="<?php echo esc_url( $project_main_img ); ?>" alt="<?php echo esc_attr( $project['title'] ); ?>" class="image-wrapper__image" draggable="false" />
-        <?php else: ?>
-          <img src="<?php echo wc_placeholder_img_src(); ?>" alt="Нет изображения" class="image-wrapper__image" draggable="false" />
-        <?php endif; ?>
+          <img src="<?php echo esc_attr( $project['project_main_image'] ); ?>" alt="<?php echo esc_attr( $project['title'] ); ?>" class="image-wrapper__image" draggable="false" />
       </picture>
       <div class="project-banner__content">
         <h1 class="project-banner__title"><?php echo esc_html( $project['title'] ); ?></h1>
