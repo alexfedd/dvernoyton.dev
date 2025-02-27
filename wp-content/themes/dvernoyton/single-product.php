@@ -79,8 +79,8 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
           // Если галерея пуста, но есть главное изображение, выводим его
           $thumb_url = get_the_post_thumbnail_url( get_the_ID(), 'large' );
           ?>
-          <picture data-fancybox="gallery" class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $thumb_url ); ?>">
-            <img draggable="false" src="<?php echo esc_url( $thumb_url ); ?>" alt="<?php the_title_attribute(); ?>" class="image-wrapper__image" />
+          <picture data-fancybox="gallery"  class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $thumb_url ); ?>">
+            <img draggable="false" style="object-fit: contain;" src="<?php echo esc_url( $thumb_url ); ?>" alt="<?php the_title_attribute(); ?>" class="image-wrapper__image" />
           </picture>
           <?php
       } else {
