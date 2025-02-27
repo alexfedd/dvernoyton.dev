@@ -27,7 +27,6 @@ body {
 }
 .map-item__item {
   flex: 1 1 50%;
-  height: 100%;
 }
 @media (max-width: 767px) {
   .map-item__item {
