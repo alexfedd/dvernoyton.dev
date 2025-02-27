@@ -53,21 +53,19 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
       $gallery_ids = $product->get_gallery_image_ids();
 
       if ( ! empty( $gallery_ids ) ) {
-          // Выводим галерею миниатюр
+          // Если галерея не пуста, выводим главное изображение из галереи и миниатюры остальных
           $img_url = wp_get_attachment_image_url( $gallery_ids[0], 'large' );
-
           ?>
-          
           <picture data-fancybox="gallery" class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $img_url ); ?>">
             <img draggable="false" src="<?php echo esc_url( $img_url ); ?>" alt="Изображение" class="image-wrapper__image" />
           </picture>
-          <?
+          <?php
           echo '<div class="product-banner__images">';
           $isFirst = true;
           foreach ( $gallery_ids as $image_id ) {
-              if($isFirst) {
-                $isFirst = false;
-                continue;
+              if ( $isFirst ) {
+                  $isFirst = false;
+                  continue;
               }
               $img_url = wp_get_attachment_image_url( $image_id, 'large' );
               ?>
@@ -77,8 +75,16 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
               <?php
           }
           echo '</div>';
+      } elseif ( has_post_thumbnail() ) {
+          // Если галерея пуста, но есть главное изображение, выводим его
+          $thumb_url = get_the_post_thumbnail_url( get_the_ID(), 'large' );
+          ?>
+          <picture data-fancybox="gallery" class="product-banner__main-image image-wrapper__image" data-src="<?php echo esc_url( $thumb_url ); ?>">
+            <img draggable="false" src="<?php echo esc_url( $thumb_url ); ?>" alt="<?php the_title_attribute(); ?>" class="image-wrapper__image" />
+          </picture>
+          <?php
       } else {
-          // Если галерея пуста, выводим плейсхолдер (или можно ничего не выводить)
+          // Если нет ни галереи, ни главного изображения, выводим плейсхолдер
           ?>
           <picture class="product-banner__main-image image-wrapper__image">
             <img draggable="false" src="<?php echo wc_placeholder_img_src(); ?>" alt="Нет изображения" class="image-wrapper__image" />
@@ -87,6 +93,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
       }
       ?>
     </div>
+
 
 
       <div class="product-banner__right">
