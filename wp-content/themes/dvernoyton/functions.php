@@ -118,72 +118,78 @@ function get_quarters() {
   return $quarters;
 }
 
-function get_projects($num = -1) {
-  // Получаем все посты типа 'project'
+function get_projects( $arg = -1 ) {
+  // Если параметр является объектом WP_REST_Request, то извлекаем из него значение 'num'
+  if ( $arg instanceof WP_REST_Request ) {
+      $num = $arg->get_param('num');
+      $num = empty( $num ) ? -1 : intval( $num );
+  } else {
+      // Иначе предполагаем, что передано число
+      $num = intval( $arg );
+  }
+
+  // Подготавливаем аргументы запроса
   $args = array(
-      'post_type' => 'projects',
-      'posts_per_page' => $num, // Получаем все проекты
+      'post_type'      => 'projects',
+      'posts_per_page' => $num,
   );
 
-  $query = new WP_Query($args);
+  $query = new WP_Query( $args );
   $projects = array();
   $allActivities = array(); // Для хранения всех уникальных терминов
 
-  if ($query->have_posts()) {
-      while ($query->have_posts()) {
+  if ( $query->have_posts() ) {
+      while ( $query->have_posts() ) {
           $query->the_post(); 
 
-          // Получаем стандартные данные поста
+          // Стандартные данные поста
           $project = array(
-              'id' => get_the_ID(),
+              'id'    => get_the_ID(),
               'title' => get_the_title(),
           );
 
-          // Добавляем кастомные поля ACF
-          $project['place'] = get_field('project_place'); // Пример поля
-          $project['region'] = get_field('project_region'); // Пример поля
-          //$project['door'] = get_field('project_door'); // Пример поля
+          // Добавляем кастомные поля (например, ACF)
+          $project['place']  = get_field('project_place'); 
+          $project['region'] = get_field('project_region'); 
 
-          // Получаем термины таксономии 'project_activity'
-          $terms = get_the_terms(get_the_ID(), 'partners');
-          if ($terms && !is_wp_error($terms)) {
-              $project['partners'] = array(); // Массив для хранения терминов конкретного проекта
-              foreach ($terms as $term) {
-                  // Добавляем термин в $allActivities, если его еще нет
-                  if (!in_array($term->slug, $allActivities)) {
+          // Получаем термины таксономии 'partners'
+          $terms = get_the_terms( get_the_ID(), 'partners' );
+          if ( $terms && ! is_wp_error( $terms ) ) {
+              $project['partners'] = array();
+              foreach ( $terms as $term ) {
+                  if ( ! in_array( $term->slug, $allActivities ) ) {
                       $allActivities[] = $term->slug;
                   }
-                  // Добавляем термин в список терминов проекта
                   $project['partners'][] = $term->slug;
               }
           } else {
-              // Если терминов нет, сохраняем пустой массив
               $project['partners'] = array();
           }
 
           // Добавляем изображение
-          $project['image'] = wp_get_attachment_image_url(get_field('project_image'), 'large'); // Пример поля
-          $project['imageAlt'] = get_post_meta(get_field('project_image'), '_wp_attachment_image_alt', TRUE); // Пример поля
-          $project['imageTitle'] = get_the_title(get_field('project_image')); // Пример поля
-          // Добавляем проект в массив
+          $project['image']      = wp_get_attachment_image_url( get_field('project_image'), 'large' );
+          $project['imageAlt']   = get_post_meta( get_field('project_image'), '_wp_attachment_image_alt', true );
+          $project['imageTitle'] = get_the_title( get_field('project_image') );
+
           $projects[] = $project;
       }
       wp_reset_postdata();
   }
 
   return array(
-      'projects' => $projects,
+      'projects'    => $projects,
       'allPartners' => $allActivities
   );
 }
 
-
+// Регистрация REST API маршрута
 add_action('rest_api_init', function() {
-  register_rest_route('custom/v1', "/projects", array(
-      'methods' => 'GET',
-      'callback' => 'get_projects',
-  ));
+register_rest_route('custom/v1', '/projects', array(
+    'methods'  => 'GET',
+    'callback' => 'get_projects',
+));
 });
+
 
 
 
