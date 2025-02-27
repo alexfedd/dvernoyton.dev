@@ -243,8 +243,8 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 9px;
-  height: -moz-fit-content;
-  height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 .item-card__image {
   border-top-left-radius: 13px;
@@ -276,6 +276,9 @@ body {
   background-color: var(--primary-white);
   padding: 30px;
   font-family: "TildaSans", "Onest", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 1023px) {
   .item-card__content {
@@ -300,7 +303,7 @@ body {
   }
 }
 .item-card__lower {
-  margin-top: 15px;
+  margin-top: auto;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -311,6 +314,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    margin-top: 15px;
   }
 }
 .item-card__info {
