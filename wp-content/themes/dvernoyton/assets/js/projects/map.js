@@ -50,10 +50,10 @@ function init(projects) {
   const customPlacemark = createMapPoints(projects, map);
 
   // Обработчик для фильтрации
-  filterContainer.addEventListener("click", (e) => {
-    onFilterClick(e);
-    //filterMapPoints(map, e);
-  });
+  // filterContainer.addEventListener("click", (e) => {
+  //   onFilterClick(e);
+  //   //filterMapPoints(map, e);
+  // });
   map.geoObjects.add(customPlacemark);
 }
 
