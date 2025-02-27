@@ -13,7 +13,7 @@ $project = get_project_info( $project_id );
   <section class="project-banner">
     <div class="container project-banner__container">
       <picture class="image-wrapper project-banner__image">
-          <img src="<?php echo wp_get_attachment_image_url( $project['project_main_image'] ) ?>" alt="<?php echo esc_attr( $project['title'] ); ?>" class="image-wrapper__image" draggable="false" />
+          <img src="<?php echo wp_get_attachment_image_url( $project['project_main_image'], 'large' ) ?>" alt="<?php echo esc_attr( $project['title'] ); ?>" class="image-wrapper__image" draggable="false" />
       </picture>
       <div class="project-banner__content">
         <h1 class="project-banner__title"><?php echo esc_html( $project['title'] ); ?></h1>

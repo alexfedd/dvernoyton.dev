@@ -41,6 +41,14 @@
     flex: 1 1 auto;
   }
 }
+.project-banner__content {
+  flex: 0 1 663px;
+}
+@media (max-width: 767px) {
+  .project-banner__content {
+    flex: 1 1 auto;
+  }
+}
 .project-banner__title {
   font-family: var(--TildaSans);
   font-size: 28px;
