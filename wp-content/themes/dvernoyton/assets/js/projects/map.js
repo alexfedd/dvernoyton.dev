@@ -58,6 +58,7 @@ function init(projects) {
 }
 
 function createMapPoints(projects, map) {
+  console.log(projects)
   projects.forEach((project) => {
     const coordinates = project?.place.split(", ");
     let placemark = new ymaps.Placemark(
