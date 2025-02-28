@@ -1,4 +1,39 @@
-<!DOCTYPE html>
+<?php 
+$args = array(
+  'taxonomy'   => 'product_cat',
+  'orderby'    => 'name',
+  'order'      => 'ASC',
+  'hide_empty' => false,
+  'parent'     => 0, // выводим только родительские категории
+);
+$product_categories = get_terms( $args );
+
+// Пример пользовательского порядка (укажите slug категорий в нужном вам порядке)
+$custom_order = array(
+  'composite' => 1,
+  'stainless'       => 2,
+  'pogonazh'          => 3,
+  'furniture'         => 4,
+  'accessories'        => 5,
+);
+
+if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
+  // Отфильтруем, чтобы исключить 'uncategorized'
+  $filtered_categories = array();
+  foreach ( $product_categories as $cat ) {
+    if ( 'uncategorized' === $cat->slug ) {
+      continue;
+    }
+    $filtered_categories[] = $cat;
+  }
+  
+  // Отсортируем категории по заданному порядку
+  usort( $filtered_categories, function( $a, $b ) use ( $custom_order ) {
+    $order_a = isset( $custom_order[ $a->slug ] ) ? $custom_order[ $a->slug ] : 999;
+    $order_b = isset( $custom_order[ $b->slug ] ) ? $custom_order[ $b->slug ] : 999;
+    return $order_a - $order_b;
+});
+?><!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -29,24 +64,10 @@
                 <div class="header__dropdown">
                   <nav class="doors-dropdown">
                   <?php
-                    $args = array(
-                      'taxonomy'   => 'product_cat',
-                      'orderby'    => 'name',
-                      'order'      => 'ASC',
-                      'hide_empty' => false,
-                      'parent'     => 0, // выводим только родительские категории
-                    );
-                    $product_categories = get_terms( $args );
-                    if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
-                      foreach ( $product_categories as $category ) {
-                        // Пропускаем категорию 'Uncategorized'
-                        if ( 'uncategorized' === $category->slug ) {
-                          continue;
-                        }
-                        // Формируем ссылку вида: /catalog/?cat=slug_категории
-                        $cat_link = add_query_arg( 'cat', $category->slug, '/catalog/' );
-                        echo '<a href="' . esc_url( $cat_link ) . '" class="doors-dropdown__link">' . esc_html( $category->name ) . '</a>';
-                      }
+                    // Выводим категории
+                    foreach ( $filtered_categories as $category ) {
+                      $cat_link = add_query_arg( 'cat', $category->slug, '/catalog/' );
+                      echo '<a href="' . esc_url( $cat_link ) . '" class="doors-dropdown__link">' . esc_html( $category->name ) . '</a>';
                     }
                   ?>
                   </nav>
@@ -108,17 +129,11 @@
               <summary class="mobile-menu__summary">Продукция</summary>
               <nav class="mobile-menu__doors">
                 <?php
-                  if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
-                    foreach ( $product_categories as $category ) {
-                      // Пропускаем категорию 'Uncategorized'
-                      if ( 'uncategorized' === $category->slug ) {
-                        continue;
-                      }
-                      // Формируем ссылку вида: /catalog/?cat=slug_категории
-                      $cat_link = add_query_arg( 'cat', $category->slug, '/catalog/' );
-                      echo '<a href="' . esc_url( $cat_link ) . '" class="mobile-menu__doors-link">' . esc_html( $category->name ) . '</a>';
-                    }
-                  }
+                  // Выводим категории
+                  foreach ( $filtered_categories as $category ) {
+                    $cat_link = add_query_arg( 'cat', $category->slug, '/catalog/' );
+                    echo '<a href="' . esc_url( $cat_link ) . '" class="mobile-menu__doors-link">' . esc_html( $category->name ) . '</a>';
+                  } 
                 ?>
               </nav>
             </details>
