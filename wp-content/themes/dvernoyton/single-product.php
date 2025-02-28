@@ -126,29 +126,38 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
           </div>
           <? endif;?>
           <?php
+          // Получаем термины для атрибута "Наличник"
           $nal_terms = wp_get_post_terms( get_the_ID(), 'pa_nalichnik' );
+          // Получаем термины для атрибута "Стоимость наличников" – предполагается, что его slug: pa_stoimost_nalichnikov
+          $cost_terms = wp_get_post_terms( get_the_ID(), 'pa_stoimost_nalichnikov' );
           if ( ! empty( $nal_terms ) && ! is_wp_error( $nal_terms ) ) : 
           ?>
           <div class="product-banner__selection">
             <p class="product-banner__text">Наличник:</p>
             <div class="product-banner__selectors">
-              <? foreach ( $nal_terms as $term ) : ?>
-                <?
-                  $term_name = $term->name;
-                  if ( strpos( $term_name, ';' ) !== false ) {
-                      $parts = explode( ';', $term_name );
-                      $term_name = trim( $parts[0] );
-                      $term_name .= ' (' . trim( $parts[1] ) . 'р.)';
-                  }  
-                ?>
+              <?php 
+              // Предполагаем, что порядок терминов в обеих таксономиях совпадает
+              foreach ( $nal_terms as $index => $term ) : 
+                $cost = '';
+                if ( ! empty( $cost_terms ) && isset( $cost_terms[$index] ) ) {
+                    // Получаем стоимость из имени термина стоимости (например, "4850")
+                    $cost = trim( $cost_terms[$index]->name );
+                }
+                // Формируем отображаемое название: если стоимость есть, добавляем её в скобках
+                $display_name = $term->name;
+                if ( '' !== $cost ) {
+                    $display_name .= ' (' . $cost . 'р.)';
+                }
+              ?>
                 <label for="nal_<?php echo esc_attr( $term->slug ); ?>" class="product-banner__label">
-                  <input type="radio" name="nal" data-cost="<?echo trim( $parts[1] )?>" id="nal_<?php echo esc_attr( $term->slug ); ?>" <?php if( $term === reset( $nal_terms ) ) echo 'checked'; ?> />
-                  <span class="product-banner__label-text"><?php echo esc_html( $term_name ); ?></span>
+                  <input type="radio" name="nal" data-cost="<?php echo esc_attr( $cost ); ?>" id="nal_<?php echo esc_attr( $term->slug ); ?>" <?php if( $term === reset( $nal_terms ) ) echo 'checked'; ?> />
+                  <span class="product-banner__label-text"><?php echo esc_html( $display_name ); ?></span>
                 </label>
-              <? endforeach;?>    
+              <?php endforeach; ?>
             </div>
           </div>
-          <? endif;?>
+          <?php endif; ?>
+
 
           <div class="product-banner__selection">
             <p class="product-banner__text">Требуемое кол-во:</p>

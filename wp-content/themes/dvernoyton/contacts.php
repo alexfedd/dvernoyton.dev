@@ -8,7 +8,7 @@ get_header();
         <div class="container">
           <div class="contacts__header">
             <div class="contacts__column">
-              <h1 class="contacts__title">Контакты компании «Дверной тон»</h1>
+              <h1 class="contacts__title">Контакты компании «Дверной Тон»</h1>
             </div>
             <div class="contacts__column">
               <a

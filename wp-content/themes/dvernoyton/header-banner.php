@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/wp-content/themes/dvernoyton/assets/images/svg/favicon.ico" type="image/x-icon">
     <? wp_head(); ?>
-    <title>Document</title>
   </head>
   <body>
     <header class="header header--on-banner">
