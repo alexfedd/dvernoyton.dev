@@ -3,6 +3,8 @@
 get_header('banner');
 $result = get_projects(4);
 
+
+$projects = $result['projects']
 ?>
     <main class="main">
       <section class="main-banner main-banner--small-p">
