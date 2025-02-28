@@ -32,7 +32,8 @@ if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
     $order_a = isset( $custom_order[ $a->slug ] ) ? $custom_order[ $a->slug ] : 999;
     $order_b = isset( $custom_order[ $b->slug ] ) ? $custom_order[ $b->slug ] : 999;
     return $order_a - $order_b;
-});
+  });
+}
 ?><!DOCTYPE html>
 <html lang="ru">
   <head>
