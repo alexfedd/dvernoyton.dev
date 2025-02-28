@@ -103,7 +103,6 @@ $query = new WP_Query( $args );
                 'cvet',                // "Цвет"
                 'razmer',              // "Размер"
                 'dopolnitelnie_opcii', // "Дополнительные опции"
-                'nalichnik'
               );
 
               if ( ! empty( $attribute_taxonomies ) ) {
