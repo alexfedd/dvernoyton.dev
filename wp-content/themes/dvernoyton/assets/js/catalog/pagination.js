@@ -47,12 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Обновляем текущие фильтры
     currentFilters = collectFilters();
-
-    // Если в URL есть параметр "cat", добавляем его
-    const catParam = getUrlParameter("cat");
-    if (catParam) {
-      currentFilters['категория'] = catParam;
-    }
     // Сбрасываем контент каталога и пагинацию
     document.querySelector('.catalog__items').innerHTML = "";
     currentPage = 1; // начинаем с первой страницы
@@ -68,8 +62,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const formData = new FormData();
     formData.append("action", "filter_products");
     formData.append("page", currentPage);
-    // Если фильтры применены, отправляем их
-    console.log(currentFilters);
+    // Если фильтры применены, отправляем их\
+    // Если в URL есть параметр "cat", добавляем его
+    const catParam = getUrlParameter("cat");
+    if (catParam) {
+      currentFilters['категория'] = catParam;
+    }
     formData.append("filters", JSON.stringify(currentFilters));
     const container = document.querySelector('.catalog__items');
     container.insertAdjacentHTML('beforeend', '<p class="catalog__placeholder">Загрузка...</p>')
