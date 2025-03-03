@@ -407,6 +407,244 @@ $projects = $result['projects']
 
             </h3>
           </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-10.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-10.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Сертификат соответствия пожарной безопасности
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-11.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-11.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Экспертное заключение 1
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-12.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-12.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Экспертное заключение 2
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-13.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-13.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Экспертное заключение 3
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-14.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-14.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Экспертное заключение Дверные блоки 1
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-15.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-15.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Экспертное заключение Дверные блоки 2
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-16.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-16.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Экспертное заключение Дверные блоки 3
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-17.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-17.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 1
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-18.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-18.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 2
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-19.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-19.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 3
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-20.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-20.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 4
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-21.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-21.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 5
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-22.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-22.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 6
+
+            </h3>
+          </article>
+          <article class="certificates__item certificates__item--hidden">
+            <picture
+              data-fancybox
+              data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-23.jpg"
+              class="image-wrapper certificates__item-image"
+            >
+              <img
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-23.jpg"
+                alt=""
+                class="image-wrapper__image"
+              />
+            </picture>
+            <h3 class="certificates__item-title">
+            Протокол испытаний мд3 класс ударопрочности 7
+
+            </h3>
+          </article>
         </div>
         <div class="container">
           <button class="solid-button certificates__button">Показать больше</button>
