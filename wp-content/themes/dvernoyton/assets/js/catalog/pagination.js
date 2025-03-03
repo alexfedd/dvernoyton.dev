@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
     formData.append("action", "filter_products");
     formData.append("page", currentPage);
     // Если фильтры применены, отправляем их
+    console.log(currentFilters);
     formData.append("filters", JSON.stringify(currentFilters));
     const container = document.querySelector('.catalog__items');
     container.insertAdjacentHTML('beforeend', '<p class="catalog__placeholder">Загрузка...</p>')
