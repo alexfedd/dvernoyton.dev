@@ -63,13 +63,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
           </picture>
           <?php
           echo '<div class="product-banner__images">';
-          $isFirst = true;
           foreach ( $gallery_ids as $image_id ) {
-              if ( $isFirst ) {
-                  $isFirst = false;
-                  
-                  continue;
-              }
               $img_url = wp_get_attachment_image_url( $image_id, 'large' );
               ?>
               <picture data-fancybox="gallery" data-src="<?php echo esc_url( $img_url ); ?>" class="product-banner__image image-wrapper__image">
