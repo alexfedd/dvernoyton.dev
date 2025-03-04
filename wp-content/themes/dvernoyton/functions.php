@@ -448,14 +448,10 @@ function filter_products_callback() {
       while ( $query->have_posts() ) : $query->the_post();
           $product = wc_get_product( get_the_ID() );
           // Получаем изображение товара (галерея → Featured Image → плейсхолдер)
-          $img_url = '';
-          $gallery = $product->get_gallery_image_ids();
-          if ( ! empty( $gallery ) ) {
-              $img_url = wp_get_attachment_image_url( $gallery[0], 'full' );
-          } elseif ( has_post_thumbnail() ) {
-              $img_url = get_the_post_thumbnail_url( get_the_ID(), 'full' );
-          } else {
-              $img_url = wc_placeholder_img_src();
+          $img_url = get_the_post_thumbnail_url( get_the_ID(), 'full' );
+
+          if ( empty( $img_url ) ) {
+            $img_url = wc_placeholder_img_src();
           }
           ?>
           <article class="catalog__item catalog-item">
