@@ -168,18 +168,13 @@
     }
   }
   &__item--hidden {
-    @media (max-width: 767px) {
-      display: none;
-    }
+    display: none;
   }
   &__button {
-    display: none;
+    display: flex;
     background-color: var(--primary);
     color: var(--primary-white);
     margin: 30px auto;
-    @media (max-width: 767px) {
-      display: flex;
-    }
   }
 
   &__item {

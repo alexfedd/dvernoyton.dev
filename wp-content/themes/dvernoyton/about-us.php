@@ -310,7 +310,7 @@ $projects = $result['projects']
             ПРОТОКОЛ ИСПЫТАНИЙ № 08837-МС-2022 от 29.04.2022 1
             </h3>
           </article>
-          <article class="certificates__item certificates__item--hidden">
+          <article class="certificates__item">
             <picture
               data-fancybox
               data-src="/wp-content/themes/dvernoyton/assets/images/pictures/about/sertifikat-4.jpg"

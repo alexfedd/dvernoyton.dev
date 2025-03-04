@@ -191,21 +191,14 @@
     gap: 30px 20px;
   }
 }
-@media (max-width: 767px) {
-  .certificates__item--hidden {
-    display: none;
-  }
+.certificates__item--hidden {
+  display: none;
 }
 .certificates__button {
-  display: none;
+  display: flex;
   background-color: var(--primary);
   color: var(--primary-white);
   margin: 30px auto;
-}
-@media (max-width: 767px) {
-  .certificates__button {
-    display: flex;
-  }
 }
 .certificates__item {
   flex: 1 1 20%;
