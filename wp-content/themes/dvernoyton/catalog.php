@@ -7,7 +7,7 @@ $selected_cat = isset( $_GET['cat'] ) ? sanitize_text_field( $_GET['cat'] ) : ''
 if ( ! empty( $selected_cat ) ) {
   $term = get_term_by( 'slug', $selected_cat, 'product_cat' );
   $current_cat_name = $term ? $term->name : 'Каталог';
-  $thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true );
+  $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true );
   $thumbnail_url = wp_get_attachment_image_url( $thumbnail_id, 'large' );
 } else {
   $current_cat_name = 'Каталог';
@@ -55,6 +55,7 @@ $query = new WP_Query( $args );
               <?echo $current_cat_name?>
             </h1>
             <picture class="catalog-banner__image image-wrapper">
+              <?echo $thumbnail_url?>
               <img
                 src="<?echo $thumbnail_url?>"
                 alt=""
