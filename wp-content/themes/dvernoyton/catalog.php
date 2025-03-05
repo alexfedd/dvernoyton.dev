@@ -7,9 +7,14 @@ $selected_cat = isset( $_GET['cat'] ) ? sanitize_text_field( $_GET['cat'] ) : ''
 if ( ! empty( $selected_cat ) ) {
   $term = get_term_by( 'slug', $selected_cat, 'product_cat' );
   $current_cat_name = $term ? $term->name : 'Каталог';
+  $thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true );
+  $thumbnail_url = wp_get_attachment_image_url( $thumbnail_id, 'large' );
 } else {
   $current_cat_name = 'Каталог';
+  $thumbnail_url = '/wp-content/themes/dvernoyton/assets/images/pictures/catalog/banner.png';
 }
+
+
 // Формируем аргументы запроса
 $args = [
     'post_type'      => 'product',
@@ -51,7 +56,7 @@ $query = new WP_Query( $args );
             </h1>
             <picture class="catalog-banner__image image-wrapper">
               <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/catalog/banner.png"
+                src="<?echo $thumbnail_url?>"
                 alt=""
                 class="image-wrapper__image"
               />
@@ -236,7 +241,7 @@ $query = new WP_Query( $args );
               <li class="dealers-banner__list-item qna">
                 Регистрация объекта
                 <div class="qna__button">?</div>
-                <div class="qna__modal">Текст какой-то тут написан</div>
+                <div class="qna__modal">Регистрация объекта дает дилеру эксклюзивное право на продажу наших дверей для данного проекта, защищая его от конкуренции и обеспечивая гарантированный объем поставок.</div>
               </li>
               <li class="dealers-banner__list-item">
                 Огромный ассортимент продукции

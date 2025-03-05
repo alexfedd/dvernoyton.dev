@@ -82,8 +82,7 @@ $projects = $result['projects'];
               />
             </picture>
             <p class="doors-info__text">
-              Композитные двери с минимальным процентом брака, благодаря отделу
-              контроля качества на каждом этапе производства
+            Композитные двери с минимальным процентом брака (2,58%), благодаря отделу контроля качества на каждом этапе производства
             </p>
             <p class="doors-info__subtitle">
               Готовы узнать, что такое настоящее качество?
@@ -174,7 +173,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/slider.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item1.jpg"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -183,7 +182,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/slider.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item2.jpg"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -192,7 +191,34 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/slider.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item3.jpg"
+                    alt=""
+                    class="image-wrapper__image"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="image-wrapper priority__image">
+                  <img
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item4.jpg"
+                    alt=""
+                    class="image-wrapper__image"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="image-wrapper priority__image">
+                  <img
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item5.jpg"
+                    alt=""
+                    class="image-wrapper__image"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="image-wrapper priority__image">
+                  <img
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item6.jpg"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -292,7 +318,7 @@ $projects = $result['projects'];
               <li class="dealers-banner__list-item qna">
                 Регистрация объекта
                 <div class="qna__button">?</div>
-                <div class="qna__modal">Текст какой-то тут написан</div>
+                <div class="qna__modal">Регистрация объекта дает дилеру эксклюзивное право на продажу наших дверей для данного проекта, защищая его от конкуренции и обеспечивая гарантированный объем поставок.</div>
               </li>
               <li class="dealers-banner__list-item">
                 Огромный ассортимент продукции
