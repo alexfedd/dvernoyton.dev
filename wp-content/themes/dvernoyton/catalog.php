@@ -55,7 +55,6 @@ $query = new WP_Query( $args );
               <?echo $current_cat_name?>
             </h1>
             <picture class="catalog-banner__image image-wrapper">
-              <?echo $thumbnail_url?>
               <img
                 src="<?echo $thumbnail_url?>"
                 alt=""
