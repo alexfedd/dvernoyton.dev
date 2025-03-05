@@ -101,7 +101,7 @@ $projects = $result['projects'];
           <article class="categories__item">
             <picture class="image-wrapper categories__item-image">
               <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item-1.jpg"
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item-1.png"
                 alt=""
                 draggable="false"
                 class="image-wrapper__image"
@@ -116,7 +116,7 @@ $projects = $result['projects'];
           <article class="categories__item">
             <picture class="image-wrapper categories__item-image">
               <img
-                src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item-2.jpg"
+                src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item-2.png"
                 alt=""
                 draggable="false"
                 class="image-wrapper__image"
