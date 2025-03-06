@@ -83,7 +83,7 @@
               <a href="/projects" class="header__navigation-link"
                 >Проекты</a
               >
-              <a href="/quarters" class="header__navigation-link"
+              <a href="/drawings" class="header__navigation-link"
                 >Чертежи</a
               >
               <a href="/dealers" class="header__navigation-link"
@@ -148,7 +148,7 @@
             <a href="/projects" class="mobile-menu__navigation-link"
               >Проекты</a
             >
-            <a href="/quarters" class="mobile-menu__navigation-link"
+            <a href="/drawings" class="mobile-menu__navigation-link"
               >Чертежи</a
             >
             <a href="/dealers" class="mobile-menu__navigation-link"

@@ -43,10 +43,11 @@ const getPostsData = async () => {
 
 function init(projects) {
   const map = new ymaps.Map("map", {
-    center: [61.003193, 69.018563], // Координаты Москвы по умолчанию
-    zoom: 2,
+    center: [55.7558, 37.6173], // Координаты Москвы
+    zoom: 10,
     controls: ["zoomControl"],
   });
+  
   const customPlacemark = createMapPoints(projects, map);
 
   // Обработчик для фильтрации
