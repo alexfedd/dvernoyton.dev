@@ -234,12 +234,17 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
                   global $product;
                   $img_url = '';
                   $gallery = $product->get_gallery_image_ids();
-                  if ( ! empty( $gallery ) ) {
-                      $img_url = wp_get_attachment_image_url( $gallery[0], 'medium' );
-                  } elseif ( has_post_thumbnail() ) {
-                      $img_url = get_the_post_thumbnail_url( get_the_ID(), 'medium' );
-                  } else {
-                      $img_url = wc_placeholder_img_src();
+                  // Сначала проверяем главное изображение (Featured Image)
+                  if ( has_post_thumbnail() ) {
+                    $img_url = get_the_post_thumbnail_url( get_the_ID(), 'full' );
+                  }
+                  // Если нет главного изображения, проверяем галерею
+                  elseif ( ! empty( $gallery = $product->get_gallery_image_ids() ) ) {
+                    $img_url = wp_get_attachment_image_url( $gallery[0], 'full' );
+                  }
+                  // Если и того нет, используем плейсхолдер
+                  else {
+                    $img_url = wc_placeholder_img_src();
                   }
                   ?>
                   <article class="product-other__item catalog-item" data-aos="fade-up">
