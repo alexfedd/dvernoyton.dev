@@ -44,7 +44,7 @@ const getPostsData = async () => {
 function init(projects) {
   const map = new ymaps.Map("map", {
     center: [55.7558, 37.6173], // Координаты Москвы
-    zoom: 10,
+    zoom: 8,
     controls: ["zoomControl"],
   });
   

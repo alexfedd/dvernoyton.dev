@@ -173,7 +173,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item1.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item1.JPG"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -182,7 +182,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item2.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item2.JPG"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -191,7 +191,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item3.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item3.JPG"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -200,7 +200,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item4.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item4.JPG"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -209,7 +209,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item5.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item5.JPG"
                     alt=""
                     class="image-wrapper__image"
                   />
@@ -218,7 +218,7 @@ $projects = $result['projects'];
               <div class="swiper-slide">
                 <picture class="image-wrapper priority__image">
                   <img
-                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item6.jpg"
+                    src="/wp-content/themes/dvernoyton/assets/images/pictures/index/item6.JPG"
                     alt=""
                     class="image-wrapper__image"
                   />
