@@ -13,6 +13,7 @@ function add_assets() {
   wp_enqueue_script( 'headerjs', get_template_directory_uri(  ) . '/assets/js/header.js', array(), null, true);
   wp_enqueue_style( 'aoscss', get_template_directory_uri(  ) . '/assets/lib/aos/aos.css');
   wp_enqueue_script( 'aosinitjs', get_template_directory_uri(  ) . '/assets/js/aos.js', array(), null, true);
+  wp_enqueue_script( 'formjs', get_template_directory_uri(  ) . '/assets/js/form.js', array(), null, true);
   wp_enqueue_style( 'stylecss', get_template_directory_uri(  ) . '/assets/scss/style.css');
   if(is_page_template( 'index.php' )) {
     wp_enqueue_script( 'numbersjs', get_template_directory_uri(  ) . '/assets/js/index/numberAnimation.js', array(), null, true);
