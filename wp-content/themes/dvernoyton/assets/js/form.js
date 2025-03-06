@@ -14,7 +14,7 @@ form?.addEventListener("submit", async function(e) {
       body: formData,
     });
     if (response.ok) {
-      console.log(response);
+      console.log(response.json());
       formButton.textContent = 'Успешно отправлено!'
     }
   }
