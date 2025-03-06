@@ -1,6 +1,6 @@
 const form = document.querySelector(".callback-form__form");
 
-form?.addEventListener("submit", async (e) => {
+form?.addEventListener("submit", async function(e) {
   e.preventDefault();
 
   const formButton = form.querySelector(".callback-form__button");
