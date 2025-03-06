@@ -258,6 +258,7 @@ function get_callback_form(){
                 <input
                   type="text"
                   id="phone"
+                  required
                   placeholder="+7 (999) 999-99-99"
                   class="callback-form__input"
                 />
@@ -273,7 +274,7 @@ function get_callback_form(){
               </div>
               <div class="callback-form__lower">
                 <label for="policy" class="callback-form__policy">
-                  <input type="checkbox" id="policy" />
+                  <input type="checkbox" required id="policy" />
                   Я согласен на обработку персональных данных и согласен с
                   условиями <a href="/privacy">политики конфиденциальности</a> и
                   политики обработки данных
