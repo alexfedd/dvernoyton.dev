@@ -735,6 +735,16 @@ body {
   max-width: 436px;
   min-width: 280px;
 }
+.dealers-banner__text {
+  font-family: var(--TildaSans);
+  color: var(--primary-white);
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .dealers-banner__text {
+    margin-top: 25px;
+  }
+}
 .dealers-banner__list {
   list-style-position: inside;
   margin-top: 50px;

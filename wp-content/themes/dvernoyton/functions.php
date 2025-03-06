@@ -81,7 +81,10 @@ function add_assets() {
     wp_enqueue_script( 'fancyinitjs', get_template_directory_uri(  ) . '/assets/js/product/photo-view.js', array(), null, true);
     return;
   }
-
+  if ( is_404() ) {
+    wp_enqueue_style( '404-style', get_template_directory_uri() . '/assets/scss/404.css' );
+    return;
+  }
 
 }
 
