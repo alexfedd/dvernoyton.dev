@@ -1,4 +1,6 @@
 <?php
+header('Content-Type: application/json');
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "alexandrfedorov508@gmail.com";
     $subject = "Обращение по форме!";
@@ -7,21 +9,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phoneNumber = $_POST["phone"] ?? "Не указан";
     $email = $_POST["email"] ?? "Не указан";
 
-    $message = "
-    Название компании: $name\n
-    Номер телефона: $phoneNumber\n
-    Email: $email\n
-    ";
+    $message = "Название компании: $name\nНомер телефона: $phoneNumber\nEmail: $email\n";
+    
+    $headers = ""; // Инициализируем переменную
     $headers .= "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
 
     if (mail($to, $subject, $message, $headers)) {
-        echo "Письмо успешно отправлено!";
+        echo json_encode([
+            'success' => true,
+            'message' => 'Письмо успешно отправлено!'
+        ]);
     } else {
-        echo "Ошибка при отправке письма.";
+        echo json_encode([
+            'success' => false,
+            'message' => 'Ошибка при отправке письма.'
+        ]);
     }
 } else {
-    echo "Неверный метод запроса.";
+    echo json_encode([
+        'success' => false,
+        'message' => 'Неверный метод запроса.'
+    ]);
 }
 ?>
