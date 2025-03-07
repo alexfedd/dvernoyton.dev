@@ -260,7 +260,7 @@ function get_callback_form(){
                   type="text"
                   id="phone"
                   required
-                  placeholder="+7 (999) 999-99-99"
+                  placeholder="+7 (495) 647-97-78"
                   class="callback-form__input"
                 />
               </div>

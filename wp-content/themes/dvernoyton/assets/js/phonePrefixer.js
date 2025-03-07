@@ -13,7 +13,7 @@ let phoneMask;
 function updateMask() {
   const countryData = phoneInput.getSelectedCountryData();
   const dialCode = countryData.dialCode;
-  const maskPattern = `+${dialCode} (495) 647-97-78`;
+  const maskPattern = `+${dialCode} (000) 000-00-00`;
   
   if (phoneMask) {
     phoneMask.updateOptions({ mask: maskPattern });
