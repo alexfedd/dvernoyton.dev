@@ -1,5 +1,5 @@
 <?php 
-// Page template: Страница галереи
+// Template name: Страница галереи
 
 get_header();
 ?>
