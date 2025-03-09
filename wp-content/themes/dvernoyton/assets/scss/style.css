@@ -1483,13 +1483,11 @@ body:has(.mobile-menu__content--opened) {
   }
 }
 @media (max-width: 1439px) {
-  .header__email span {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
   .header__email {
     padding: 4px;
+  }
+  .header__email span {
+    display: none;
   }
 }
 .header__mobile-btn {
