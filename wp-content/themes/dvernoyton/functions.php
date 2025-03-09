@@ -30,6 +30,11 @@ function add_assets() {
     wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/about-us/style.css');
     return;
   }
+  if(is_page_template( 'gallery.php' )) {
+    wp_enqueue_script( 'fancyinitjs', get_template_directory_uri(  ) . '/assets/js/product/photo-view.js', array(), null, true);
+    wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/gallery/style.css');
+    return;
+  }
   if(is_page_template( 'catalog.php' )) {
     wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/catalog/style.css');
     wp_enqueue_script( 'filterbuttonjs', get_template_directory_uri(  ) . '/assets/js/catalog/filterButton.js', array(), null, true);
