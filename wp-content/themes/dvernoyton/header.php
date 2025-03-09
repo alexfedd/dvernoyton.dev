@@ -93,6 +93,9 @@
               <a href="/contacts" class="header__navigation-link"
                 >Связаться с нами</a
               >
+              <a href="/gallery" class="header__navigation-link"
+                >Галерея</a
+              >
             </nav>
           </div>
           <div class="header__right">
@@ -161,6 +164,9 @@
             />
             <a href="/contacts" class="mobile-menu__navigation-link"
               >Связаться с нами</a
+            >
+            <a href="/gallery" class="mobile-menu__navigation-link"
+              >Галерея</a
             >
             <a href="mailto:info@dvernoyton.com" class="header-email">
               <picture class="header-email__image">
