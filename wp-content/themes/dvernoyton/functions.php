@@ -67,6 +67,7 @@ function add_assets() {
     wp_enqueue_style( 'pagestyle.css', get_template_directory_uri() . '/assets/scss/product/style.css' );
     wp_enqueue_script( 'fancyinitjs', get_template_directory_uri() . '/assets/js/product/photo-view.js', array(), null, true );
     wp_enqueue_script( 'priceparserjs', get_template_directory_uri() . '/assets/js/product/price-parser.js', array(), null, true );
+    wp_enqueue_script( 'modaljs', get_template_directory_uri() . '/assets/js/product/modal-form.js', array(), null, true );
     return;
   }
 

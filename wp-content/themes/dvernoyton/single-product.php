@@ -166,7 +166,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
           <p class="product-banner__price">
             Цена: <span class="product-banner__number"><?php echo $product->get_regular_price(); ?></span>р.
           </p>
-          <button class="solid-button product-banner__button">Запросить КП</button>
+          <button class="solid-button product-banner__button" id="form-modal">Запросить КП</button>
         </div>
       </div>
     </div>
@@ -274,5 +274,59 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
 
   <?php get_callback_form(); ?>
 </main>
-
+<div class="modal">
+  <img src="/wp-content/themes/dvernoyton/assets/images/svg/closemodal.svg" alt="" class="modal__close">
+  <form action="" class="callback-form__form modal__content">
+    <h2 class="title-h2 modal__title">Оформите заявку прямо сейчас!</h2>
+    <p class="modal__text">Оставьте свои данные ниже и мы свяжемся с вами в течение 20-ти минут</p>
+    <div class="callback-form__form modal__form">
+      <div class="callback-form__input-wrapper">
+        <label for="name-modal" class="callback-form__label"
+          >Название компании</label
+        >
+        <input
+          type="text"
+          placeholder="ООО Дверной Тон"
+          id="name-modal"
+          name="name-modal"
+          class="callback-form__input"
+        />
+      </div>
+      <div class="callback-form__input-wrapper">
+        <label for="phone-modal" class="callback-form__label"
+          >Контактный телефон</label
+        >
+        <input
+          type="text"
+          id="phone-modal"
+          required
+          name="phone-modal"
+          placeholder="+7 (495) 647-97-78"
+          class="callback-form__input"
+        />
+      </div>
+      <div class="callback-form__input-wrapper">
+        <label for="email-modal" class="callback-form__label">Email</label>
+        <input
+          type="email"
+          placeholder="info@dvernoyton.com"
+          id="email-modal"
+          name="email-modal"
+          class="callback-form__input"
+        />
+      </div>
+      <div class="callback-form__lower">
+        <label for="policy-modal" class="callback-form__policy">
+          <input type="checkbox" required id="policy-modal" />
+          Я согласен на обработку персональных данных и согласен с
+          условиями <a href="/privacy">политики конфиденциальности</a> и
+          политики обработки данных
+        </label>
+        <button class="solid-button callback-form__button" id="modal-button">
+          Отправить!
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
 <?php get_footer(); ?>

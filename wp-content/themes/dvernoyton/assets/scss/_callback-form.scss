@@ -52,6 +52,9 @@
     @media (max-width: 1023px) {
       flex: 1 1 auto;
     }
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
     color: var(--primary-white);
   }
   .iti {
@@ -72,7 +75,7 @@
     max-width: 451px;
     width: 100%;
     @media (max-width: 1023px) {
-      padding: 16px 15px;
+      padding: 20px 25px;
       font-size: 16px;
     }
     @media (max-width: 767px) {
@@ -87,8 +90,11 @@
     max-width: 451px;
     margin-left: auto;
     margin-top: 30px;
-    @media (max-width: 767px) {
+    @media (max-width: 1023px) {
       margin-left: 0;
+    }
+    @media (max-width: 767px) {
+      margin-top: 20px;
     }
   }
 
@@ -135,6 +141,10 @@
     max-width: 197px;
     height: 47px;
     margin-top: 30px;
+    @media (max-width: 424px) {
+      max-width: 100% !important;
+      width: 100%;
+    }
   }
 
   &__contacts {
