@@ -45,10 +45,9 @@ body {
   &__image {
     position: absolute;
     z-index: 1;
-    width: 358px;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 27px;
+    top: 0;
+    bottom: 0;
+    right: 37px;
     @media (max-width: 1023px) {
       width: 250px;
     }

@@ -90,9 +90,20 @@ if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
               <a href="/contacts" class="header__navigation-link"
                 >Связаться с нами</a
               >
-              <a href="/gallery" class="header__navigation-link"
-                >Галерея</a
-              >
+              <div class="header__navigation-link doors-btn">
+                <span class="doors-btn__span">Галерея</span>
+                <img
+                  src="/wp-content/themes/dvernoyton/assets/images/svg/menu.svg"
+                  alt="Показать услуги"
+                  class="doors-btn__icon"
+                />
+                <div class="header__dropdown">
+                  <nav class="doors-dropdown">
+                    <a href="/gallery-plastic" class="doors-dropdown__link">Двери в пластике CPL</a>
+                    <a href="/gallery-composite" class="doors-dropdown__link">Композитные двери POSEIDON</a>
+                  </nav>
+                </div>
+              </div>
             </nav>
           </div>
           <div class="header__right">
@@ -161,9 +172,13 @@ if ( ! empty( $product_categories ) && ! is_wp_error( $product_categories ) ) {
             <a href="/contacts" class="mobile-menu__navigation-link"
               >Связаться с нами</a
             >
-            <a href="/gallery" class="mobile-menu__navigation-link"
-              >Галерея</a
-            >
+            <details class="mobile-menu__navigation-link">
+              <summary class="mobile-menu__summary">Галерея</summary>
+              <nav class="mobile-menu__doors">
+                <a href="/gallery-plastic" class="mobile-menu__doors-link">Двери в пластике CPL</a>
+                <a href="/gallery-composite" class="mobile-menu__doors-link">Композитные двери POSEIDON</a>
+              </nav>
+            </details>
             <a href="mailto:info@dvernoyton.com" class="header-email">
               <picture class="header-email__image">
                 <img src="/wp-content/themes/dvernoyton/assets/images/svg/header-email.svg" alt="" />
