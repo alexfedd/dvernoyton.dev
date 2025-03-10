@@ -22,7 +22,7 @@
             <a href="/projects" class="footer__nav-link"
               >Реализованные объекты</a
             >
-            <a href="/quarters" class="footer__nav-link">Чертежи</a>
+            <a href="/drawings" class="footer__nav-link">Чертежи</a>
             <a href="contacts" class="footer__nav-link">Контакты</a>
           </nav>
           <div class="footer__column">
