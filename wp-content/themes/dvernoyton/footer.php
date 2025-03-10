@@ -17,13 +17,13 @@
           <nav class="footer__column footer-nav">
             <a href="/" class="footer__nav-link">Главная страница</a>
             <a href="/catalog" class="footer__nav-link">Каталог</a>
-            <a href="/" class="footer__nav-link">О компании</a>
+            <a href="/about" class="footer__nav-link">О компании</a>
             <a href="/dealers" class="footer__nav-link">Для дилеров</a>
-            <a href="projects.html" class="footer__nav-link"
+            <a href="/projects" class="footer__nav-link"
               >Реализованные объекты</a
             >
             <a href="/quarters" class="footer__nav-link">Чертежи</a>
-            <a href="contacts.html" class="footer__nav-link">Контакты</a>
+            <a href="contacts" class="footer__nav-link">Контакты</a>
           </nav>
           <div class="footer__column">
             <h2 class="footer__title">Офис</h2>
