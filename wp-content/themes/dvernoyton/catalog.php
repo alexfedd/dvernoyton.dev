@@ -69,8 +69,20 @@ $query = new WP_Query( $args );
           <div class="catalog__filters">
             <button class="catalog__filter-button">Фильтры</button>
             <div class="catalog__filters-list">
-              <?php
-              // Если в URL передан параметр cat, предполагается, что это slug категории
+            <?php
+              // Задаём желаемый порядок атрибутов с их отображаемыми названиями:
+              $ordered_attributes = array(
+                'seria'               => 'Серия',
+                'tip_polotna'         => 'Тип полотна',
+                'tip_otkryvaniya'     => 'Тип открывания',
+                'kolvo_stvorok'       => 'Кол-во створок',
+                'cvet'                => 'Цвет',
+                'razmer'              => 'Размер',
+                'dopolnitelnie_opcii' => 'Дополнительные опции',
+                'nalichnik'           => 'Наличник'
+              );
+
+              // Если передан параметр для ограничения по товарам из категории – этот код можно добавить как и раньше:
               $current_cat_id = false;
               if ( isset($_GET['cat']) && ! empty($_GET['cat']) ) {
                   $current_cat = get_term_by('slug', sanitize_text_field($_GET['cat']), 'product_cat');
@@ -79,7 +91,6 @@ $query = new WP_Query( $args );
                   }
               }
 
-              // Если категория определена, получаем ID товаров из неё
               $products_in_cat = array();
               if ( $current_cat_id ) {
                   $products_in_cat = get_posts( array(
@@ -96,69 +107,50 @@ $query = new WP_Query( $args );
                   ) );
               }
 
-              // Получаем все глобальные атрибуты WooCommerce
-              $attribute_taxonomies = wc_get_attribute_taxonomies();
+            // Выводим фильтры согласно заданному порядку:
+            foreach( $ordered_attributes as $attr_slug => $attr_label ) {
+                // Формируем название таксономии, например, "pa_seria"
+                $taxonomy = 'pa_' . $attr_slug;
+                
+                // Получаем термины для данного атрибута; если задана категория, ограничиваем выборку товарами из неё
+                if ( ! empty( $products_in_cat ) ) {
+                    $terms = get_terms( array(
+                        'taxonomy'   => $taxonomy,
+                        'hide_empty' => true,
+                        'object_ids' => $products_in_cat,
+                    ) );
+                } else {
+                    $terms = get_terms( array(
+                        'taxonomy'   => $taxonomy,
+                        'hide_empty' => false,
+                    ) );
+                }
 
-              // Список нужных атрибутов по их slug (без префикса "pa_")
-              $allowed_attributes = array(
-                'seria',               // "Серия"
-                'tip_polotna',         // "Тип полотна"
-                'tip_otkryvaniya',     // "Тип открывания"
-                'kolvo_stvorok',       // "Кол-во створок"
-                'cvet',                // "Цвет"
-                'razmer',              // "Размер"
-                'dopolnitelnie_opcii', // "Дополнительные опции"
-              );
-
-              if ( ! empty( $attribute_taxonomies ) ) {
-                  foreach ( $attribute_taxonomies as $tax ) {
-                      // Получаем slug атрибута (например, "seria")
-                      $attribute_slug = $tax->attribute_name;
-                      if ( ! in_array( $attribute_slug, $allowed_attributes, true ) ) {
-                          continue;
-                      }
-                      // Формируем название таксономии (например, "pa_seria")
-                      $taxonomy = wc_attribute_taxonomy_name( $attribute_slug );
-                      
-                      // Получаем термины для данного атрибута.
-                      // Если задана категория через GET, ограничиваем термины товарами из неё.
-                      if ( ! empty( $products_in_cat ) ) {
-                          $terms = get_terms( array(
-                              'taxonomy'   => $taxonomy,
-                              'hide_empty' => true,
-                              'object_ids' => $products_in_cat,
-                          ) );
-                      } else {
-                          $terms = get_terms( array(
-                              'taxonomy'   => $taxonomy,
-                              'hide_empty' => false,
-                          ) );
-                      }
-
-                      if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
-                          echo '<div class="catalog__filter">';
-                          echo '<p class="catalog__filter-name">' . esc_html( $tax->attribute_label ) . '</p>';
-                          // Для каждого термина выводим чекбокс
-                          foreach ( $terms as $term ) {
-                              $input_id = esc_attr( $taxonomy . '_' . $term->slug );
-                              $term_name = $term->name;
-                              if ( strpos( $term_name, ';' ) !== false ) {
-                                  $parts = explode( ';', $term_name );
-                                  $term_name = trim( $parts[0] );
-                                  $term_name .= ' (' . trim( $parts[1] ) . 'р.)';
-                              }
-                              ?>
-                              <label for="<?php echo $input_id; ?>" class="catalog__filter-label">
-                                <input type="checkbox" id="<?php echo $input_id; ?>" class="catalog__filter-input" value="<?php echo esc_attr( $term->slug ); ?>">
-                                <span class="catalog__filter-text"><?php echo esc_html( $term_name ); ?></span>
-                              </label>
-                              <?php
-                          }
-                          echo '</div>';
-                      }
+                if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
+                    echo '<div class="catalog__filter">';
+                    echo '<p class="catalog__filter-name">' . esc_html( $attr_label ) . '</p>';
+                    
+                    foreach ( $terms as $term ) {
+                        $input_id = esc_attr( $taxonomy . '_' . $term->slug );
+                        $term_name = $term->name;
+                        // Если в названии встречается точка с запятой, оставляем только первую часть и добавляем стоимость
+                        if ( strpos( $term_name, ';' ) !== false ) {
+                            $parts = explode( ';', $term_name );
+                            $term_name = trim( $parts[0] );
+                            $term_name .= ' (' . trim( $parts[1] ) . 'р.)';
+                        }
+                        ?>
+                        <label for="<?php echo $input_id; ?>" class="catalog__filter-label">
+                          <input type="checkbox" id="<?php echo $input_id; ?>" class="catalog__filter-input" value="<?php echo esc_attr( $term->slug ); ?>">
+                          <span class="catalog__filter-text"><?php echo esc_html( $term_name ); ?></span>
+                        </label>
+                        <?php
+                    }
+                    echo '</div>';
                   }
               }
               ?>
+
 
               <!-- Фильтр "Наличие" (выводим вручную) -->
               <div class="catalog__filter">
