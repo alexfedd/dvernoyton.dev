@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Функция загрузки товаров
   function loadMoreProducts(reset = false) {
-    console.log(loading, noMoreProducts);
+    if(reset) noMoreProducts = false
     if (loading || noMoreProducts) return;
     loading = true;
 
@@ -81,14 +81,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "beforeend",
       '<p class="catalog__placeholder">Загрузка...</p>'
     );
-    console.log(currentFilters)
     fetch(myAjax.ajax_url, {
       method: "POST",
       credentials: "same-origin",
       body: formData,
     })
       .then((response) => {
-        console.log(response);
         return response.text();
       })
       .then((data) => {
