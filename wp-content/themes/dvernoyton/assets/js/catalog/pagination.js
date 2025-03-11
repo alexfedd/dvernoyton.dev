@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Функция загрузки товаров
   function loadMoreProducts(reset = false) {
+    console.log(loading, noMoreProducts);
     if (loading || noMoreProducts) return;
     loading = true;
 
@@ -93,7 +94,6 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((data) => {
         // Если reset, заменяем контент; иначе добавляем в конец
         if (reset) {
-          console.log(data);
           container.innerHTML = data;
         } else {
           container.insertAdjacentHTML("beforeend", data);
