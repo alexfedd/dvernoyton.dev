@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function() {
         loading = false;
       })
       .finally(() => {
-        container.querySelector('.catalog__placeholder').remove();
+        container.querySelector('.catalog__placeholder')?.remove();
       });
   }
 
