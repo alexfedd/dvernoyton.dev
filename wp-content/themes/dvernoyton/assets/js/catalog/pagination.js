@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "beforeend",
       '<p class="catalog__placeholder">Загрузка...</p>'
     );
+    console.log(currentFilters)
     fetch(myAjax.ajax_url, {
       method: "POST",
       credentials: "same-origin",
