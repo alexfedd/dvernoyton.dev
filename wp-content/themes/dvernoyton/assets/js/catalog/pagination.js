@@ -92,9 +92,10 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((data) => {
         // Если reset, заменяем контент; иначе добавляем в конец
         if (reset) {
-          console.log(data);
+          container.querySelector(".catalog__placeholder")?.remove();
           container.innerHTML = data;
         } else {
+          container.querySelector(".catalog__placeholder")?.remove();
           container.insertAdjacentHTML("beforeend", data);
         }
         AOS.refreshHard(); // Перезапускаем AOS для новых элементов
@@ -110,9 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("Ошибка загрузки товаров:", error);
         loading = false;
       })
-      .finally(() => {
-        container.querySelector(".catalog__placeholder")?.remove();
-      });
   }
 
   // Бесконечная прокрутка: при достижении низа страницы вызываем загрузку
