@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
       .then((data) => {
         // Если reset, заменяем контент; иначе добавляем в конец
         if (reset) {
+          console.log(data)
           container.innerHTML = data;
         } else {
           container.insertAdjacentHTML('beforeend', data);
