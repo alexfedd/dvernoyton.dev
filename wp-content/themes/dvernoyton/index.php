@@ -138,7 +138,7 @@ $projects = $result['projects'];
               />
             </picture>
             <h3 class="categories__item-title">Фурнитура</h3>
-            <a href="/catalog/&cat=furniture" class="categories__item-link"
+            <a href="/catalog/?cat=furniture" class="categories__item-link"
               >Перейти в раздел
               <img src="/wp-content/themes/dvernoyton/assets/images/svg/index/item-arrow.svg" alt=""
             /></a>
