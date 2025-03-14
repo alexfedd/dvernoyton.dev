@@ -1,5 +1,5 @@
 <?
-// Template Name: Страница о компании
+// Template Name: Страница сертификатов
 get_header();
 
 ?>
