@@ -23,7 +23,7 @@ function add_assets() {
     wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/index/style.css');
     return;
   }
-  if(is_page_template( 'about-us.php' )) {
+  if(is_page_template ( 'about-us.php' ) || is_page_template ( 'certificates.php' )) {
     wp_enqueue_script( 'numbersjs', get_template_directory_uri(  ) . '/assets/js/index/numberAnimation.js', array(), null, true);
     wp_enqueue_script( 'fancyinitjs', get_template_directory_uri(  ) . '/assets/js/product/photo-view.js', array(), null, true);
     wp_enqueue_script( 'morejs', get_template_directory_uri(  ) . '/assets/js/about/more.js', array(), null, true);
