@@ -19,6 +19,7 @@
             <a href="/catalog" class="footer__nav-link">Каталог</a>
             <a href="/about" class="footer__nav-link">О компании</a>
             <a href="/dealers" class="footer__nav-link">Для дилеров</a>
+            <a href="/certificates" class="footer__nav-link">Сертификаты</a>
             <a href="/projects" class="footer__nav-link"
               >Реализованные объекты</a
             >
