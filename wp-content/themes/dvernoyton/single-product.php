@@ -12,6 +12,7 @@ if ( ! is_object( $product ) ) {
 }
 
 $terms = get_the_terms( get_the_ID(), 'product_cat' );
+$term = array_shift( $terms );
 
 ?>
 <main class="main product-page">
@@ -25,7 +26,6 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
       <?
         if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
             // Берем первую категорию
-            $term = array_shift( $terms );
             ?>
             <a href="/catalog/?cat=<?echo $term->slug?>" class="breadcrumbs__link">
               <?php echo esc_html( $term->name ); ?>
