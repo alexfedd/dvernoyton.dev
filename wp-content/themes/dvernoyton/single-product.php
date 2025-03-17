@@ -154,6 +154,7 @@ $term = array_shift( $terms );
             </div>
           </div>
           <?php endif; ?>
+          <?echo $term->slug ?>
           <?php if ($term->slug == 'composite'):  ?>
             <div class="product-banner__selection">
               <p class="product-banner__text">Серия:</p>
