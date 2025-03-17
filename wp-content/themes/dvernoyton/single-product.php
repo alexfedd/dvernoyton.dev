@@ -12,7 +12,7 @@ if ( ! is_object( $product ) ) {
 }
 
 $terms = get_the_terms( get_the_ID(), 'product_cat' );
-$term = array_shift( $terms );
+
 
 ?>
 <main class="main product-page">
@@ -26,7 +26,9 @@ $term = array_shift( $terms );
       <?
         if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
             // Берем первую категорию
+            $term = array_shift( $terms );
             ?>
+            
             <a href="/catalog/?cat=<?echo $term->slug?>" class="breadcrumbs__link">
               <?php echo esc_html( $term->name ); ?>
             </a>
@@ -154,8 +156,11 @@ $term = array_shift( $terms );
             </div>
           </div>
           <?php endif; ?>
-          <?echo urldecode($term->slug) ?>
-          <?php if ($term->slug == 'composite'):  ?>
+          <?
+          $terms = get_the_terms( get_the_ID(), 'product_cat' );
+          $term = array_shift( $terms );
+          echo urldecode($term->slug) ?>
+          <?php if (urldecode($term->slug) == 'composite'):  ?>
             <div class="product-banner__selection">
               <p class="product-banner__text">Серия:</p>
               <div class="product-banner__selectors">
