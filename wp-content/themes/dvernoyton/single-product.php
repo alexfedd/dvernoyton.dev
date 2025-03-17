@@ -154,7 +154,25 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
             </div>
           </div>
           <?php endif; ?>
-
+          <?php if ($term->slug == 'composite'):  ?>
+            <div class="product-banner__selection">
+              <p class="product-banner__text">Серия:</p>
+              <div class="product-banner__selectors">
+                <label for="seria_1" class="product-banner__label">
+                  <input type="radio" name="seria" data-cost="-1420" id="seria_1"/>
+                  <span class="product-banner__label-text">Эконом (-1420р.)</span>
+                </label>
+                <label for="seria_2" class="product-banner__label">
+                  <input type="radio" name="seria" data-cost="0" checked id="seria_2"/>
+                  <span class="product-banner__label-text">Стандарт (0р.)</span>
+                </label>
+                <label for="seria_3" class="product-banner__label">
+                  <input type="radio" name="seria" data-cost="13200" id="seria_3"/>
+                  <span class="product-banner__label-text">Премиум (+13200р.)</span>
+                </label>
+              </div>
+            </div>
+          <?php endif; ?>
 
           <div class="product-banner__selection">
             <p class="product-banner__text">Требуемое кол-во:</p>

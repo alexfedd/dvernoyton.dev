@@ -52,6 +52,9 @@ modalForm.addEventListener("submit", async (e) => {
   const productNal = document.querySelector(
     '.product-banner__label input[name="nal"]:checked ~ .product-banner__label-text'
   )?.textContent;
+  const productSeria = document.querySelector(
+    '.product-banner__label input[name="seria"]:checked ~ .product-banner__label-text'
+  )?.textContent;
   const userPhone = document.querySelector("#phone-modal").value;
   const userName = document.querySelector("#name-modal").value;
   const userEmail = document.querySelector("#email-modal").value;
@@ -64,6 +67,7 @@ modalForm.addEventListener("submit", async (e) => {
     ...(productCounter && { count: productCounter }),
     ...(productSize && { size: productSize }),
     ...(productNal && { nalichnik: productNal }),
+    ...(productSeria && { seria: productSeria }),
   };
   const formData = new FormData();
   Object.keys(data).forEach((key) => {

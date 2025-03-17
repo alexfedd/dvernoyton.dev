@@ -17,6 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $productCounter = $_POST["count"] ?? "";
     $productSize   = $_POST["size"] ?? "";
     $productNal    = $_POST["nalichnik"] ?? "";
+    $productSeria    = $_POST["seria"] ?? "";
     
     // Если указано название товара, считаем, что это заказ и доп. данные должны быть включены
     if (!empty($productName)) {
@@ -27,6 +28,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         if (!empty($productSize)) {
             $message .= "Размер: $productSize\n";
+        }
+        if (!empty($productSeria)) {
+            $message .= "Серия: $productSeria\n";
         }
         if (!empty($productNal)) {
             $message .= "Наличник: $productNal\n";
