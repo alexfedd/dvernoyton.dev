@@ -19,8 +19,9 @@ if ( ! empty( $selected_cat ) ) {
 $args = [
     'post_type'      => 'product',
     'posts_per_page' => 12,
-    'orderby'        => 'date',
-    'order'          => 'DESC',
+    'meta_key'       => '_price',
+    'orderby'        => 'meta_value_num',
+    'order'          => 'ASC',
 ];
 
 // Если передан параметр категории – добавляем tax_query
@@ -72,7 +73,6 @@ $query = new WP_Query( $args );
             <?php
               // Задаём желаемый порядок атрибутов с их отображаемыми названиями:
               $ordered_attributes = array(
-                'seria'               => 'Серия',
                 'tip_polotna'         => 'Тип полотна',
                 'tip_otkryvaniya'     => 'Тип открывания',
                 'kolvo_stvorok'       => 'Кол-во створок',

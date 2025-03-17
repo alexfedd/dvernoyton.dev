@@ -179,7 +179,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
         <h2 class="title-h2 product-specs__title">Характеристики</h2>
         <div class="product-specs__row">
           <p class="product-specs__column">Вес:</p>
-          <p class="product-specs__column"><?php echo $product->get_attribute('pa_ves') ? $product->get_attribute('pa_ves') . ' Кг' : '—'; ?></p>
+          <p class="product-specs__column"><?php echo $product->get_attribute('pa_ves') ? $product->get_attribute('pa_ves') : '—'; ?></p>
         </div>
         <div class="product-specs__row">
           <p class="product-specs__column">Базовая цена:</p>

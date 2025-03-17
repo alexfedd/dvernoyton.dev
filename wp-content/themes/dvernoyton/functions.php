@@ -333,8 +333,9 @@ function filter_products_callback() {
       'post_type'      => 'product',
       'posts_per_page' => 12,  // для каждой страницы будет 12 товаров
       'paged'          => $page,
-      'orderby'        => 'date',
-      'order'          => 'DESC',
+      'meta_key'       => '_price',
+      'orderby'        => 'meta_value_num',
+      'order'          => 'ASC',
   ];
   
   $tax_query = [];
