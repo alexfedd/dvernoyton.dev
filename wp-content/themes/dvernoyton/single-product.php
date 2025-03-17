@@ -159,7 +159,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
           <?
           $terms = get_the_terms( get_the_ID(), 'product_cat' );
           $term = array_shift( $terms );
-          echo urldecode($term->slug) ?>
+          ?>
           <?php if (urldecode($term->slug) == 'composite'):  ?>
             <div class="product-banner__selection">
               <p class="product-banner__text">Серия:</p>
