@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Формируем заголовки
     $headers = "";
-    $headers .= "From: $email\r\n";
+    $headers .= "From: $to\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
     
