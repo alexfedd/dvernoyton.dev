@@ -1647,6 +1647,8 @@ body:has(.mobile-menu__content--opened) {
   font-size: 8px;
   font-family: var(--TildaSans);
   color: #6A6A6A;
+  text-align: right;
+  max-width: 260px;
 }
 @media (max-width: 500px) {
   .footer__column.footer-nav {
