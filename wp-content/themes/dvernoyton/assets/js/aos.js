@@ -1,5 +1,5 @@
-AOS.init({
-  once: true,
-  disable: 'mobile',
-  duration: 800
+AOS.init({
+  once: true,
+  disable: 'mobile',
+  duration: 800
 });

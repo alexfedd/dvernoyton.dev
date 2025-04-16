@@ -1,0 +1,16 @@
+[20-Mar-2025 22:43:40 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/u56127/dvernoyton.com/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-bindings/pattern-overrides.php on line 47
+[20-Mar-2025 22:43:46 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/u56127/dvernoyton.com/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-bindings/pattern-overrides.php on line 47
+[20-Mar-2025 22:43:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/u56127/dvernoyton.com/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-bindings/post-meta.php on line 70
+[20-Mar-2025 22:44:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/u56127/dvernoyton.com/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-bindings/post-meta.php on line 70

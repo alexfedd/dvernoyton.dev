@@ -1,0 +1,156 @@
+[20-Mar-2025 22:46:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/background.php on line 111
+[20-Mar-2025 22:46:10 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/background.php on line 111
+[20-Mar-2025 22:46:17 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/block-style-variations.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/block-style-variations.php on line 251
+[20-Mar-2025 22:46:23 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/block-style-variations.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/block-style-variations.php on line 251
+[20-Mar-2025 22:46:30 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php on line 170
+[20-Mar-2025 22:46:35 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php on line 170
+[20-Mar-2025 22:46:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/dimensions.php on line 164
+[20-Mar-2025 22:46:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/dimensions.php on line 164
+[20-Mar-2025 22:46:55 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/duotone.php on line 36
+[20-Mar-2025 22:47:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/duotone.php on line 36
+[20-Mar-2025 22:47:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/elements.php on line 263
+[20-Mar-2025 22:47:14 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/elements.php on line 263
+[20-Mar-2025 22:47:21 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/layout.php:945
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/layout.php on line 945
+[20-Mar-2025 22:47:27 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/layout.php:945
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/layout.php on line 945
+[20-Mar-2025 22:47:40 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/position.php on line 145
+[20-Mar-2025 22:47:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/position.php on line 145
+[20-Mar-2025 22:47:51 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/settings.php on line 151
+[20-Mar-2025 22:47:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/settings.php on line 151
+[20-Mar-2025 22:48:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/shadow.php on line 79
+[20-Mar-2025 22:48:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/shadow.php on line 79
+[20-Mar-2025 22:48:19 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/spacing.php on line 83
+[20-Mar-2025 22:48:26 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/spacing.php on line 83
+[28-Mar-2025 02:18:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/align.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/align.php on line 59
+[28-Mar-2025 02:18:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/background.php on line 111
+[28-Mar-2025 02:18:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/block-style-variations.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/block-style-variations.php on line 251
+[28-Mar-2025 02:18:05 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php on line 170
+[28-Mar-2025 02:18:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/colors.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/colors.php on line 138
+[28-Mar-2025 02:18:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/border.php on line 170
+[28-Mar-2025 02:18:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/custom-classname.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/custom-classname.php on line 59
+[28-Mar-2025 02:18:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/dimensions.php on line 164
+[28-Mar-2025 02:18:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/duotone.php on line 36
+[28-Mar-2025 02:18:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/elements.php on line 263
+[28-Mar-2025 02:18:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/generated-classname.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/generated-classname.php on line 66
+[28-Mar-2025 02:18:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/layout.php:945
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/layout.php on line 945
+[28-Mar-2025 02:18:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/position.php on line 145
+[28-Mar-2025 02:18:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/settings.php on line 151
+[28-Mar-2025 02:18:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/shadow.php on line 79
+[28-Mar-2025 02:18:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/spacing.php on line 83
+[28-Mar-2025 02:18:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/u56127/dvernoyton.com/wp-includes/block-supports/typography.php:684
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-supports/typography.php on line 684

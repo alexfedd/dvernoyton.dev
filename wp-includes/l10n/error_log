@@ -1,0 +1,24 @@
+[20-Mar-2025 23:04:55 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Translation_File' not found in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-mo.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-mo.php on line 15
+[20-Mar-2025 23:05:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Translation_File' not found in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-mo.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-mo.php on line 15
+[20-Mar-2025 23:05:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Translation_File' not found in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-php.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-php.php on line 15
+[20-Mar-2025 23:05:15 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Translation_File' not found in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-php.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-php.php on line 15
+[28-Mar-2025 02:26:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Translation_File' not found in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-mo.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-mo.php on line 15
+[28-Mar-2025 02:26:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Translation_File' not found in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-php.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/l10n/class-wp-translation-file-php.php on line 15

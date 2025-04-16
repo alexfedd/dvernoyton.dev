@@ -1,0 +1,1486 @@
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:38:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:38:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[20-Mar-2025 22:38:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[20-Mar-2025 22:39:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[20-Mar-2025 22:39:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[20-Mar-2025 22:40:31 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[20-Mar-2025 22:40:39 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP Stack trace:
+[20-Mar-2025 22:50:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[20-Mar-2025 22:51:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[20-Mar-2025 22:51:19 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[20-Mar-2025 22:51:26 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[20-Mar-2025 22:51:32 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[20-Mar-2025 23:07:47 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[20-Mar-2025 23:07:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 01:24:16 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 01:24:17 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[21-Mar-2025 01:24:17 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[21-Mar-2025 01:24:21 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP Stack trace:
+[21-Mar-2025 15:34:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[21-Mar-2025 15:34:32 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[21-Mar-2025 15:34:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[21-Mar-2025 15:34:40 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Stack trace:
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Stack trace:
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Stack trace:
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Stack trace:
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP Stack trace:
+[22-Mar-2025 02:38:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[22-Mar-2025 02:39:18 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[22-Mar-2025 02:39:22 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[22-Mar-2025 02:40:34 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Stack trace:
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Stack trace:
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Stack trace:
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Stack trace:
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP Stack trace:
+[23-Mar-2025 03:46:22 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[23-Mar-2025 03:46:24 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[23-Mar-2025 03:46:25 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[23-Mar-2025 03:46:30 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 00:06:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 00:06:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[24-Mar-2025 00:06:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[24-Mar-2025 00:06:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 11:34:39 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 11:34:43 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[24-Mar-2025 11:34:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[24-Mar-2025 11:35:14 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP Stack trace:
+[24-Mar-2025 18:49:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[24-Mar-2025 18:49:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[24-Mar-2025 18:49:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[24-Mar-2025 18:49:18 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Stack trace:
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Stack trace:
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Stack trace:
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Stack trace:
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP Stack trace:
+[25-Mar-2025 04:41:33 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[25-Mar-2025 04:41:35 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[25-Mar-2025 04:41:36 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[25-Mar-2025 04:41:50 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 05:48:45 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 05:48:47 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[26-Mar-2025 05:48:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[26-Mar-2025 05:48:54 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP Stack trace:
+[26-Mar-2025 21:05:27 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[26-Mar-2025 21:05:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[26-Mar-2025 21:05:35 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[26-Mar-2025 21:05:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[28-Mar-2025 02:12:39 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/u56127/dvernoyton.com/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/block-patterns.php on line 9
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/cache.php on line 12
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/cache.php:0
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/cache.php on line 12
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/cache.php:0
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/class-wp-object-cache.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/cache.php on line 12
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/cache.php:0
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-wp-object-cache.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/cache.php on line 12
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:40 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/cache.php:0
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-IXR.php on line 42
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-IXR.php:0
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-IXR.php on line 42
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-IXR.php:0
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/IXR/class-IXR-server.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-IXR.php on line 42
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-IXR.php:0
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/IXR/class-IXR-server.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-IXR.php on line 42
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-IXR.php:0
+[28-Mar-2025 02:12:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-feed.php on line 10
+[28-Mar-2025 02:12:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-http.php on line 11
+[28-Mar-2025 02:12:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-json.php on line 2
+[28-Mar-2025 02:12:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-oembed.php on line 12
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/u56127/dvernoyton.com/wp-includes/class-requests.php on line 24
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-requests.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   2. trigger_error($message = 'The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\\Requests\\...` class names at your earliest convenience.', $error_type = 16384) /home/u56127/dvernoyton.com/wp-includes/class-requests.php:24
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/u56127/dvernoyton.com/wp-includes/class-requests.php on line 24
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-requests.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   2. trigger_error($message = 'The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\\Requests\\...` class names at your earliest convenience.', $error_type = 16384) /home/u56127/dvernoyton.com/wp-includes/class-requests.php:24
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php on line 8
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php on line 8
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/SimplePie/autoloader.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php on line 8
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/SimplePie/autoloader.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php on line 8
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/autoloader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php on line 8
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-simplepie.php:0
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-smtp.php on line 6
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-snoopy.php on line 6
+[28-Mar-2025 02:12:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/u56127/dvernoyton.com/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-walker-category-dropdown.php on line 17
+[28-Mar-2025 02:12:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/u56127/dvernoyton.com/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-walker-category.php on line 17
+[28-Mar-2025 02:12:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/u56127/dvernoyton.com/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-walker-comment.php on line 17
+[28-Mar-2025 02:12:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/u56127/dvernoyton.com/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-walker-nav-menu.php on line 17
+[28-Mar-2025 02:12:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/u56127/dvernoyton.com/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-walker-page-dropdown.php on line 17
+[28-Mar-2025 02:12:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/u56127/dvernoyton.com/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-walker-page.php on line 17
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php on line 706
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php:0
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php on line 706
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php:0
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-color-control.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php on line 706
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php:0
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-color-control.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php on line 706
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-control.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php on line 407
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php on line 407
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php on line 407
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php on line 407
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-panel.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php on line 408
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php on line 408
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-themes-section.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php on line 408
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-themes-section.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php on line 408
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-section.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php on line 964
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php on line 964
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-filter-setting.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php on line 964
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php:0
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-filter-setting.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php on line 964
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:12:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-customize-setting.php:0
+[28-Mar-2025 02:12:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Interface 'SimplePie\Cache\Base' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-feed-cache-transient.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-feed-cache-transient.php on line 17
+[28-Mar-2025 02:12:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class-wp-feed-cache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-feed-cache.php on line 11
+[28-Mar-2025 02:12:59 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-http-ixr-client.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-http-ixr-client.php on line 9
+[28-Mar-2025 02:13:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Hooks' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-http-requests-hooks.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-http-requests-hooks.php on line 18
+[28-Mar-2025 02:13:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-http-requests-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-http-requests-response.php on line 17
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Image_Editor' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-image-editor-gd.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-image-editor-gd.php on line 16
+[28-Mar-2025 02:13:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Image_Editor' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-image-editor-imagick.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-image-editor-imagick.php on line 16
+[28-Mar-2025 02:13:27 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[28-Mar-2025 02:13:28 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'SimplePie\File' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-simplepie-file.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-simplepie-file.php on line 19
+[28-Mar-2025 02:13:28 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'SimplePie\Sanitize' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-simplepie-sanitize-kses.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-simplepie-sanitize-kses.php on line 19
+[28-Mar-2025 02:13:28 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[28-Mar-2025 02:13:31 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Text_Diff_Renderer_inline' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-text-diff-renderer-inline.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-text-diff-renderer-inline.php on line 17
+[28-Mar-2025 02:13:32 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Text_Diff_Renderer' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-text-diff-renderer-table.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-text-diff-renderer-table.php on line 17
+[28-Mar-2025 02:13:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Session_Tokens' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-user-meta-session-tokens.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-user-meta-session-tokens.php on line 17
+[28-Mar-2025 02:13:35 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-xmlrpc-server.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-xmlrpc-server.php on line 24
+[28-Mar-2025 02:13:37 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class.wp-dependencies.php on line 11
+[28-Mar-2025 02:13:37 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class.wp-scripts.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class.wp-scripts.php on line 11
+[28-Mar-2025 02:13:37 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/class.wp-styles.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class.wp-styles.php on line 11
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/compat.php on line 380
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/compat.php:0
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/compat.php on line 380
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/compat.php:0
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/sodium_compat/autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/compat.php on line 380
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/compat.php:0
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/sodium_compat/autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/compat.php on line 380
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/compat.php:0
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/sodium_compat/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/compat.php on line 380
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/compat.php:0
+[28-Mar-2025 02:13:39 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/date.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/date.php on line 11
+[28-Mar-2025 02:13:39 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/u56127/dvernoyton.com/wp-includes/default-filters.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/default-filters.php on line 28
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/default-widgets.php on line 11
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/default-widgets.php:0
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/default-widgets.php on line 11
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/default-widgets.php:0
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/widgets/class-wp-widget-pages.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/default-widgets.php on line 11
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/default-widgets.php:0
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/default-widgets.php on line 11
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:41 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/default-widgets.php:0
+[28-Mar-2025 02:13:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/embed-template.php on line 11
+[28-Mar-2025 02:13:45 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/u56127/dvernoyton.com/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/feed-atom-comments.php on line 8
+[28-Mar-2025 02:13:45 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/u56127/dvernoyton.com/wp-includes/feed-atom.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/feed-atom.php on line 8
+[28-Mar-2025 02:13:45 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/u56127/dvernoyton.com/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/feed-rdf.php on line 8
+[28-Mar-2025 02:13:46 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/u56127/dvernoyton.com/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/feed-rss.php on line 8
+[28-Mar-2025 02:13:46 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/u56127/dvernoyton.com/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/feed-rss2-comments.php on line 8
+[28-Mar-2025 02:13:46 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/u56127/dvernoyton.com/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/feed-rss2.php on line 8
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/functions.php on line 8
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/functions.php:0
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/functions.php on line 8
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/functions.php:0
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/functions.php on line 8
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/functions.php:0
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/functions.php on line 8
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/functions.php:0
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/functions.php on line 8
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:47 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/functions.php:0
+[28-Mar-2025 02:13:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/locale.php on line 11
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/u56127/dvernoyton.com/wp-includes/media.php:2458
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/media.php on line 2458
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/meta.php on line 13
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/meta.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/meta.php on line 13
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/meta.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/class-wp-metadata-lazyloader.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/meta.php on line 13
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/meta.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/class-wp-metadata-lazyloader.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/meta.php on line 13
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/meta.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-wp-metadata-lazyloader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/meta.php on line 13
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/meta.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php on line 11
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php on line 11
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/ms-site.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php on line 11
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php:0
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-site.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php on line 11
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:50 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-blogs.php:0
+[28-Mar-2025 02:13:51 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/u56127/dvernoyton.com/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/ms-default-filters.php on line 16
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/ms-settings.php on line 35
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-settings.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/ms-settings.php on line 35
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-settings.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/class-wp-network.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/ms-settings.php on line 35
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-settings.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-wp-network.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/ms-settings.php on line 35
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/ms-settings.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php on line 11
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php on line 11
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/class-walker-nav-menu.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php on line 11
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php:0
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-walker-nav-menu.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php on line 11
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:13:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/nav-menu-template.php:0
+[28-Mar-2025 02:13:54 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/registration-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/registration-functions.php on line 9
+[28-Mar-2025 02:13:55 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/registration.php on line 9
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/rss.php on line 19
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/script-loader.php on line 20
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/script-loader.php:0
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/script-loader.php on line 20
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/script-loader.php:0
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/script-loader.php on line 20
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/script-loader.php:0
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/script-loader.php on line 20
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/script-loader.php:0
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-wp-dependency.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/script-loader.php on line 20
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/script-loader.php:0
+[28-Mar-2025 02:14:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/session.php on line 9
+[28-Mar-2025 02:14:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/u56127/dvernoyton.com/wp-includes/spl-autoload-compat.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/spl-autoload-compat.php on line 14
+[28-Mar-2025 02:14:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[28-Mar-2025 02:14:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function wp_using_themes() in /home/u56127/dvernoyton.com/wp-includes/template-loader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-loader.php on line 7
+[28-Mar-2025 02:14:03 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/u56127/dvernoyton.com/wp-includes/update.php:1145
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/update.php on line 1145
+[28-Mar-2025 02:14:03 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/u56127/dvernoyton.com/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/vars.php on line 23
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/wp-diff.php on line 13
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/wp-diff.php:0
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/wp-diff.php on line 13
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/wp-diff.php:0
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Text/Diff.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/wp-diff.php on line 13
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/wp-diff.php:0
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Text/Diff.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/wp-diff.php on line 13
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/wp-diff.php:0
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Text/Diff.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/wp-diff.php on line 13
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 02:14:04 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/wp-diff.php:0
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP Stack trace:
+[28-Mar-2025 21:45:53 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[28-Mar-2025 21:45:54 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[28-Mar-2025 21:45:54 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[28-Mar-2025 21:45:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 10:34:52 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 10:34:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[30-Mar-2025 10:34:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[30-Mar-2025 10:35:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP Stack trace:
+[30-Mar-2025 21:38:08 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[30-Mar-2025 21:38:10 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[30-Mar-2025 21:38:10 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[30-Mar-2025 21:38:19 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Stack trace:
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Stack trace:
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Stack trace:
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Stack trace:
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP Stack trace:
+[01-Apr-2025 05:44:01 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[01-Apr-2025 05:44:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[01-Apr-2025 05:44:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[01-Apr-2025 05:44:18 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Stack trace:
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Stack trace:
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Stack trace:
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Stack trace:
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP Stack trace:
+[03-Apr-2025 02:23:20 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[03-Apr-2025 02:23:22 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[03-Apr-2025 02:23:23 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[03-Apr-2025 02:23:29 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Stack trace:
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Stack trace:
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Stack trace:
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Stack trace:
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP Stack trace:
+[06-Apr-2025 16:28:51 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[06-Apr-2025 16:28:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[06-Apr-2025 16:28:59 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[06-Apr-2025 16:29:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Stack trace:
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Stack trace:
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Stack trace:
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Stack trace:
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP Stack trace:
+[07-Apr-2025 15:19:42 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[07-Apr-2025 15:19:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[07-Apr-2025 15:19:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[07-Apr-2025 15:19:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:12:58 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 02:13:02 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 02:13:29 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[10-Apr-2025 02:13:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[10-Apr-2025 02:13:37 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[10-Apr-2025 02:13:41 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP Stack trace:
+[10-Apr-2025 21:31:00 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[10-Apr-2025 21:31:31 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[10-Apr-2025 21:31:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[10-Apr-2025 21:32:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 03:43:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 03:43:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[11-Apr-2025 03:43:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[11-Apr-2025 03:44:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 04:02:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 04:03:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[11-Apr-2025 04:03:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[11-Apr-2025 04:03:15 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 10:04:14 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 10:04:23 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[11-Apr-2025 10:04:25 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[11-Apr-2025 10:04:54 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 12:26:34 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 12:26:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[11-Apr-2025 12:26:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[11-Apr-2025 12:27:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP Stack trace:
+[11-Apr-2025 20:00:54 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[11-Apr-2025 20:01:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[11-Apr-2025 20:01:10 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[11-Apr-2025 20:01:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Stack trace:
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Stack trace:
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Stack trace:
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Stack trace:
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP Stack trace:
+[12-Apr-2025 10:47:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[12-Apr-2025 10:47:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[12-Apr-2025 10:47:40 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[12-Apr-2025 10:48:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 04:50:59 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 04:51:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[13-Apr-2025 04:51:11 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[13-Apr-2025 04:51:39 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP Stack trace:
+[13-Apr-2025 22:41:12 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[13-Apr-2025 22:41:15 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[13-Apr-2025 22:41:16 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[13-Apr-2025 22:41:25 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 03:02:30 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 03:02:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[14-Apr-2025 03:03:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[14-Apr-2025 03:04:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP Stack trace:
+[14-Apr-2025 21:24:38 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[14-Apr-2025 21:24:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[14-Apr-2025 21:24:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[14-Apr-2025 21:25:11 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 05:42:18 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 05:42:20 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[15-Apr-2025 05:42:21 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[15-Apr-2025 05:42:36 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 11:36:55 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 11:37:03 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[15-Apr-2025 11:37:06 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[15-Apr-2025 11:37:35 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP Stack trace:
+[15-Apr-2025 18:34:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[15-Apr-2025 18:34:11 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[15-Apr-2025 18:34:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[15-Apr-2025 18:34:28 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:33:36 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:33:50 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[16-Apr-2025 05:33:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[16-Apr-2025 05:34:28 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php on line 11
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP Stack trace:
+[16-Apr-2025 05:57:05 Europe/Moscow] PHP   1. {main}() /home/u56127/dvernoyton.com/wp-includes/class-wp-http.php:0
+[16-Apr-2025 05:57:14 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-scripts.php on line 18
+[16-Apr-2025 05:57:16 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/class-wp-styles.php on line 18
+[16-Apr-2025 05:57:45 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/template-canvas.php on line 12

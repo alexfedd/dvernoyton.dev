@@ -1,0 +1,12 @@
+[28-Mar-2025 02:18:43 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/u56127/dvernoyton.com/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[28-Mar-2025 02:18:43 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/u56127/dvernoyton.com/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[28-Mar-2025 02:18:43 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/u56127/dvernoyton.com/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17

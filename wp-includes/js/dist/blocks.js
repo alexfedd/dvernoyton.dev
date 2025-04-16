@@ -608,8 +608,8 @@ module.exports.remove = removeAccents;
 /***/ 1030:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 1.9.1 - 02-11-2019 */
-(function(){
+var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 1.9.1 - 02-11-2019 */
+(function(){
 /**
  * Created by Tivie on 13-07-2015.
  */
@@ -802,7 +802,7 @@ function allOptionsOn () {
   }
   return ret;
 }
-
+
 /**
  * Created by Tivie on 06-01-2015.
  */
@@ -1183,7 +1183,7 @@ showdown.validateExtension = function (ext) {
   }
   return true;
 };
-
+
 /**
  * showdownjs helper functions
  */
@@ -2787,7 +2787,7 @@ showdown.helper.emojis = {
   'octocat':  '<img alt=":octocat:" height="20" width="20" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png">',
   'showdown': '<span style="font-family: \'Anonymous Pro\', monospace; text-decoration: underline; text-decoration-style: dashed; text-decoration-color: #3e8b8a;text-underline-position: under;">S</span>'
 };
-
+
 /**
  * Created by Estevao on 31-05-2015.
  */
@@ -3390,7 +3390,7 @@ showdown.Converter = function (converterOptions) {
     metadata.raw = raw;
   };
 };
-
+
 /**
  * Turn Markdown link shortcuts into XHTML <a> tags.
  */
@@ -3489,7 +3489,7 @@ showdown.subParser('anchors', function (text, options, globals) {
   text = globals.converter._dispatch('anchors.after', text, options, globals);
   return text;
 });
-
+
 // url allowed chars [a-z\d_.~:/?#[]@!$&'()*+,;=-]
 
 var simpleURLRegex  = /([*~_]+|\b)(((https?|ftp|dict):\/\/|www\.)[^'">\s]+?\.[^'">\s]+?)()(\1)?(?=\s|$)(?!["<>])/gi,
@@ -3569,7 +3569,7 @@ showdown.subParser('simplifiedAutoLinks', function (text, options, globals) {
 
   return text;
 });
-
+
 /**
  * These are all the transformations that form block-level
  * tags like paragraphs, headers, and list items.
@@ -3602,7 +3602,7 @@ showdown.subParser('blockGamut', function (text, options, globals) {
 
   return text;
 });
-
+
 showdown.subParser('blockQuotes', function (text, options, globals) {
   'use strict';
 
@@ -3645,7 +3645,7 @@ showdown.subParser('blockQuotes', function (text, options, globals) {
   text = globals.converter._dispatch('blockQuotes.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Process Markdown `<pre><code>` blocks.
  */
@@ -3684,7 +3684,7 @@ showdown.subParser('codeBlocks', function (text, options, globals) {
   text = globals.converter._dispatch('codeBlocks.after', text, options, globals);
   return text;
 });
-
+
 /**
  *
  *   *  Backtick quotes are used for <code></code> spans.
@@ -3733,7 +3733,7 @@ showdown.subParser('codeSpans', function (text, options, globals) {
   text = globals.converter._dispatch('codeSpans.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Create a full HTML document from the processed markdown
  */
@@ -3796,7 +3796,7 @@ showdown.subParser('completeHTMLDocument', function (text, options, globals) {
   text = globals.converter._dispatch('completeHTMLDocument.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Convert all tabs to spaces
  */
@@ -3830,7 +3830,7 @@ showdown.subParser('detab', function (text, options, globals) {
   text = globals.converter._dispatch('detab.after', text, options, globals);
   return text;
 });
-
+
 showdown.subParser('ellipsis', function (text, options, globals) {
   'use strict';
 
@@ -3842,7 +3842,7 @@ showdown.subParser('ellipsis', function (text, options, globals) {
 
   return text;
 });
-
+
 /**
  * Turn emoji codes into emojis
  *
@@ -3870,7 +3870,7 @@ showdown.subParser('emoji', function (text, options, globals) {
 
   return text;
 });
-
+
 /**
  * Smart processing for ampersands and angle brackets that need to be encoded.
  */
@@ -3894,7 +3894,7 @@ showdown.subParser('encodeAmpsAndAngles', function (text, options, globals) {
   text = globals.converter._dispatch('encodeAmpsAndAngles.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Returns the string, with after processing the following backslash escape sequences.
  *
@@ -3916,7 +3916,7 @@ showdown.subParser('encodeBackslashEscapes', function (text, options, globals) {
   text = globals.converter._dispatch('encodeBackslashEscapes.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Encode/escape certain characters inside Markdown code runs.
  * The point is that in code, these characters are literals,
@@ -3940,7 +3940,7 @@ showdown.subParser('encodeCode', function (text, options, globals) {
   text = globals.converter._dispatch('encodeCode.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Within tags -- meaning between < and > -- encode [\ ` * _ ~ =] so they
  * don't conflict with their use in Markdown for code, italics and strong.
@@ -3967,7 +3967,7 @@ showdown.subParser('escapeSpecialCharsWithinTagAttributes', function (text, opti
   text = globals.converter._dispatch('escapeSpecialCharsWithinTagAttributes.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Handle github codeblocks prior to running HashHTML so that
  * HTML contained within the codeblock gets escaped properly
@@ -4014,7 +4014,7 @@ showdown.subParser('githubCodeBlocks', function (text, options, globals) {
 
   return globals.converter._dispatch('githubCodeBlocks.after', text, options, globals);
 });
-
+
 showdown.subParser('hashBlock', function (text, options, globals) {
   'use strict';
   text = globals.converter._dispatch('hashBlock.before', text, options, globals);
@@ -4023,7 +4023,7 @@ showdown.subParser('hashBlock', function (text, options, globals) {
   text = globals.converter._dispatch('hashBlock.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Hash and escape <code> elements that should not be parsed as markdown
  */
@@ -4042,7 +4042,7 @@ showdown.subParser('hashCodeTags', function (text, options, globals) {
   text = globals.converter._dispatch('hashCodeTags.after', text, options, globals);
   return text;
 });
-
+
 showdown.subParser('hashElement', function (text, options, globals) {
   'use strict';
 
@@ -4062,7 +4062,7 @@ showdown.subParser('hashElement', function (text, options, globals) {
     return blockText;
   };
 });
-
+
 showdown.subParser('hashHTMLBlocks', function (text, options, globals) {
   'use strict';
   text = globals.converter._dispatch('hashHTMLBlocks.before', text, options, globals);
@@ -4161,7 +4161,7 @@ showdown.subParser('hashHTMLBlocks', function (text, options, globals) {
   text = globals.converter._dispatch('hashHTMLBlocks.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Hash span elements that should not be parsed as markdown
  */
@@ -4226,7 +4226,7 @@ showdown.subParser('unhashHTMLSpans', function (text, options, globals) {
   text = globals.converter._dispatch('unhashHTMLSpans.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Hash and escape <pre><code> elements that should not be parsed as markdown
  */
@@ -4246,7 +4246,7 @@ showdown.subParser('hashPreCodeTags', function (text, options, globals) {
   text = globals.converter._dispatch('hashPreCodeTags.after', text, options, globals);
   return text;
 });
-
+
 showdown.subParser('headers', function (text, options, globals) {
   'use strict';
 
@@ -4373,7 +4373,7 @@ showdown.subParser('headers', function (text, options, globals) {
   text = globals.converter._dispatch('headers.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Turn Markdown link shortcuts into XHTML <a> tags.
  */
@@ -4389,7 +4389,7 @@ showdown.subParser('horizontalRule', function (text, options, globals) {
   text = globals.converter._dispatch('horizontalRule.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Turn Markdown image shortcuts into <img> tags.
  */
@@ -4494,7 +4494,7 @@ showdown.subParser('images', function (text, options, globals) {
   text = globals.converter._dispatch('images.after', text, options, globals);
   return text;
 });
-
+
 showdown.subParser('italicsAndBold', function (text, options, globals) {
   'use strict';
 
@@ -4565,7 +4565,7 @@ showdown.subParser('italicsAndBold', function (text, options, globals) {
   text = globals.converter._dispatch('italicsAndBold.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Form HTML ordered (numbered) and unordered (bulleted) lists.
  */
@@ -4769,7 +4769,7 @@ showdown.subParser('lists', function (text, options, globals) {
   text = globals.converter._dispatch('lists.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Parse metadata at the top of the document
  */
@@ -4819,7 +4819,7 @@ showdown.subParser('metadata', function (text, options, globals) {
   text = globals.converter._dispatch('metadata.after', text, options, globals);
   return text;
 });
-
+
 /**
  * Remove one level of line-leading tabs or spaces
  */
@@ -4837,7 +4837,7 @@ showdown.subParser('outdent', function (text, options, globals) {
   text = globals.converter._dispatch('outdent.after', text, options, globals);
   return text;
 });
-
+
 /**
  *
  */
@@ -4908,7 +4908,7 @@ showdown.subParser('paragraphs', function (text, options, globals) {
   text = text.replace(/\n+$/g, '');
   return globals.converter._dispatch('paragraphs.after', text, options, globals);
 });
-
+
 /**
  * Run extension
  */
@@ -4929,7 +4929,7 @@ showdown.subParser('runExtension', function (ext, text, options, globals) {
 
   return text;
 });
-
+
 /**
  * These are all the transformations that occur *within* block-level
  * tags like paragraphs, headers, and list items.
@@ -4979,7 +4979,7 @@ showdown.subParser('spanGamut', function (text, options, globals) {
   text = globals.converter._dispatch('spanGamut.after', text, options, globals);
   return text;
 });
-
+
 showdown.subParser('strikethrough', function (text, options, globals) {
   'use strict';
 
@@ -4998,7 +4998,7 @@ showdown.subParser('strikethrough', function (text, options, globals) {
 
   return text;
 });
-
+
 /**
  * Strips link definitions from text, stores the URLs and titles in
  * hash references.
@@ -5052,7 +5052,7 @@ showdown.subParser('stripLinkDefinitions', function (text, options, globals) {
 
   return text;
 });
-
+
 showdown.subParser('tables', function (text, options, globals) {
   'use strict';
 
@@ -5195,7 +5195,7 @@ showdown.subParser('tables', function (text, options, globals) {
 
   return text;
 });
-
+
 showdown.subParser('underline', function (text, options, globals) {
   'use strict';
 
@@ -5228,7 +5228,7 @@ showdown.subParser('underline', function (text, options, globals) {
 
   return text;
 });
-
+
 /**
  * Swap back in all the special characters we've hidden.
  */
@@ -5244,7 +5244,7 @@ showdown.subParser('unescapeSpecialChars', function (text, options, globals) {
   text = globals.converter._dispatch('unescapeSpecialChars.after', text, options, globals);
   return text;
 });
-
+
 showdown.subParser('makeMarkdown.blockquote', function (node, globals) {
   'use strict';
 
@@ -5267,7 +5267,7 @@ showdown.subParser('makeMarkdown.blockquote', function (node, globals) {
   txt = '> ' + txt.split('\n').join('\n> ');
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.codeBlock', function (node, globals) {
   'use strict';
 
@@ -5275,13 +5275,13 @@ showdown.subParser('makeMarkdown.codeBlock', function (node, globals) {
       num  = node.getAttribute('precodenum');
   return '```' + lang + '\n' + globals.preList[num] + '\n```';
 });
-
+
 showdown.subParser('makeMarkdown.codeSpan', function (node) {
   'use strict';
 
   return '`' + node.innerHTML + '`';
 });
-
+
 showdown.subParser('makeMarkdown.emphasis', function (node, globals) {
   'use strict';
 
@@ -5297,7 +5297,7 @@ showdown.subParser('makeMarkdown.emphasis', function (node, globals) {
   }
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.header', function (node, globals, headerLevel) {
   'use strict';
 
@@ -5315,13 +5315,13 @@ showdown.subParser('makeMarkdown.header', function (node, globals, headerLevel) 
   }
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.hr', function () {
   'use strict';
 
   return '---';
 });
-
+
 showdown.subParser('makeMarkdown.image', function (node) {
   'use strict';
 
@@ -5340,7 +5340,7 @@ showdown.subParser('makeMarkdown.image', function (node) {
   }
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.links', function (node, globals) {
   'use strict';
 
@@ -5361,7 +5361,7 @@ showdown.subParser('makeMarkdown.links', function (node, globals) {
   }
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.list', function (node, globals, type) {
   'use strict';
 
@@ -5395,7 +5395,7 @@ showdown.subParser('makeMarkdown.list', function (node, globals, type) {
   txt += '\n<!-- -->\n';
   return txt.trim();
 });
-
+
 showdown.subParser('makeMarkdown.listItem', function (node, globals) {
   'use strict';
 
@@ -5421,7 +5421,7 @@ showdown.subParser('makeMarkdown.listItem', function (node, globals) {
 
   return listItemTxt;
 });
-
+
 
 
 showdown.subParser('makeMarkdown.node', function (node, globals, spansOnly) {
@@ -5542,7 +5542,7 @@ showdown.subParser('makeMarkdown.node', function (node, globals, spansOnly) {
 
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.paragraph', function (node, globals) {
   'use strict';
 
@@ -5560,14 +5560,14 @@ showdown.subParser('makeMarkdown.paragraph', function (node, globals) {
 
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.pre', function (node, globals) {
   'use strict';
 
   var num  = node.getAttribute('prenum');
   return '<pre>' + globals.preList[num] + '</pre>';
 });
-
+
 showdown.subParser('makeMarkdown.strikethrough', function (node, globals) {
   'use strict';
 
@@ -5583,7 +5583,7 @@ showdown.subParser('makeMarkdown.strikethrough', function (node, globals) {
   }
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.strong', function (node, globals) {
   'use strict';
 
@@ -5599,7 +5599,7 @@ showdown.subParser('makeMarkdown.strong', function (node, globals) {
   }
   return txt;
 });
-
+
 showdown.subParser('makeMarkdown.table', function (node, globals) {
   'use strict';
 
@@ -5670,7 +5670,7 @@ showdown.subParser('makeMarkdown.table', function (node, globals) {
 
   return txt.trim();
 });
-
+
 showdown.subParser('makeMarkdown.tableCell', function (node, globals) {
   'use strict';
 
@@ -5686,7 +5686,7 @@ showdown.subParser('makeMarkdown.tableCell', function (node, globals) {
   }
   return txt.trim();
 });
-
+
 showdown.subParser('makeMarkdown.txt', function (node) {
   'use strict';
 
@@ -5730,7 +5730,7 @@ showdown.subParser('makeMarkdown.txt', function (node) {
 
   return txt;
 });
-
+
 var root = this;
 
 // AMD Loader
@@ -5743,7 +5743,7 @@ if (true) {
 
 // CommonJS/nodeJS Loader
 } else {}
-}).call(this);
+}).call(this);
 
 
 

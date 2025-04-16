@@ -1,41 +1,41 @@
-@font-face {
-  font-family: 'Onest';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Light.woff2');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Onest';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Regular.woff2');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Onest';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Medium.woff2');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Onest';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-SemiBold.woff2');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Onest';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Bold.woff2');
-  font-weight: 700;
-}
-
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/Montserrat-Regular.ttf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'TildaSans';
-  src: url('/wp-content/themes/dvernoyton/assets/fonts/TildaSans-VF.woff2');
+@font-face {
+  font-family: 'Onest';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Light.woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Regular.woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Medium.woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-SemiBold.woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/Onest-Bold.woff2');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'TildaSans';
+  src: url('/wp-content/themes/dvernoyton/assets/fonts/TildaSans-VF.woff2');
 }

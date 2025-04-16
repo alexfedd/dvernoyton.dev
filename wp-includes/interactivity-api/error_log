@@ -1,0 +1,8 @@
+[20-Mar-2025 23:03:54 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_HTML_Tag_Processor' not found in /home/u56127/dvernoyton.com/wp-includes/interactivity-api/class-wp-interactivity-api-directives-processor.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/interactivity-api/class-wp-interactivity-api-directives-processor.php on line 18
+[20-Mar-2025 23:04:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_HTML_Tag_Processor' not found in /home/u56127/dvernoyton.com/wp-includes/interactivity-api/class-wp-interactivity-api-directives-processor.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/interactivity-api/class-wp-interactivity-api-directives-processor.php on line 18

@@ -1,0 +1,12 @@
+[28-Mar-2025 02:26:32 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Search_Handler' not found in /home/u56127/dvernoyton.com/wp-includes/rest-api/search/class-wp-rest-post-format-search-handler.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/rest-api/search/class-wp-rest-post-format-search-handler.php on line 17
+[28-Mar-2025 02:26:32 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Search_Handler' not found in /home/u56127/dvernoyton.com/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php on line 17
+[28-Mar-2025 02:26:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Search_Handler' not found in /home/u56127/dvernoyton.com/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u56127/dvernoyton.com/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php on line 17
