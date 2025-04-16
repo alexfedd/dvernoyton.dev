@@ -332,7 +332,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
 
                   <input type="radio" name="seria" data-cost="-1420" id="seria_1"/>
 
-                  <span class="product-banner__label-text">Эконом (-1420р.)</span>
+                  <span class="product-banner__label-text">Эконом (-1 420р.)</span>
 
                 </label>
 
@@ -348,7 +348,7 @@ $terms = get_the_terms( get_the_ID(), 'product_cat' );
 
                   <input type="radio" name="seria" data-cost="13200" id="seria_3"/>
 
-                  <span class="product-banner__label-text">Премиум (+13200р.)</span>
+                  <span class="product-banner__label-text">Премиум (+13 200р.)</span>
 
                 </label>
 
