@@ -6,7 +6,7 @@ header('Content-Type: application/json');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $to = "otk@st-doors.com, applications@webstead.ru";
+    $to = "otk@st-doors.com, sendlog@webstead.ru";
 
     
 
