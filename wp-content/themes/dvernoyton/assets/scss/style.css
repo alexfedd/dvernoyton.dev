@@ -1642,6 +1642,12 @@ body:has(.mobile-menu__content--opened) {
     align-items: center;
   }
 }
+.footer__email-subtext {
+  margin-top: 20px;
+  font-size: 8px;
+  font-family: var(--TildaSans);
+  color: #6A6A6A;
+}
 @media (max-width: 500px) {
   .footer__column.footer-nav {
     flex-direction: row;
