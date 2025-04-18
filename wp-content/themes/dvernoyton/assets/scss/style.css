@@ -923,6 +923,7 @@ body {
   height: 813px;
   padding: 119px 0;
   position: relative;
+  overflow: hidden;
   height: 100vh;
 }
 .main-banner__image {
