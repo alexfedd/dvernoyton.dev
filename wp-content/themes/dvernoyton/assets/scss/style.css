@@ -980,7 +980,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 4;
+  z-index: 4000;
   background-color: #FFFFFF;
   animation: fadeUpAnimation 1s ease-in-out forwards;
 }
