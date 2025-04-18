@@ -1,11 +1,18 @@
 .main-banner {
   height: 813px;
-  background-image: url("/wp-content/themes/dvernoyton/assets/images/pictures/index/banner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 119px 0;
   position: relative;
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center center;
+    animation: scaleAnimation 1s ease-in-out;
+  }
   height: 100vh;
   @media (max-width: 1023px) {
     height: 600px;
@@ -28,6 +35,7 @@
     content: "";
     position: absolute;
     inset: 0;
+    z-index: 2;
     background-color: hsla(0, 0%, 0%, 0.77);
   }
   &__title {
@@ -54,6 +62,7 @@
     position: relative;
     flex-direction: column;
     justify-content: flex-end;
+    z-index: 3;
     height: 100%;
   }
 
@@ -94,4 +103,15 @@
       max-width: 100%;
     }
   }
+}
+
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+  
 }

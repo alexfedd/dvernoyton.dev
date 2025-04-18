@@ -19,7 +19,7 @@ $projects = $result['projects'];
     <main class="main">
 
       <section class="main-banner">
-
+        <img draggable="false" src="/wp-content/themes/dvernoyton/assets/images/pictures/index/banner.jpg" alt="" class="main-banner__image">
         <div class="container main-banner__container">
 
           <h1 class="main-banner__title">
