@@ -187,7 +187,7 @@ function add_assets() {
   }
 
   if (is_singular( 'post' )) {
-    wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/single-post/style.css' );
+    wp_enqueue_style( 'pagestyle.css', get_template_directory_uri(  ) . '/assets/scss/blog-single/style.css' );
 
     return;
   }
