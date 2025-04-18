@@ -932,6 +932,8 @@ body {
   right: 0;
   bottom: 0;
   z-index: 1;
+  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center center;
@@ -969,6 +971,17 @@ body {
   inset: 0;
   z-index: 2;
   background-color: hsla(0, 0%, 0%, 0.77);
+}
+.main-banner::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  background-color: #FFFFFF;
+  animation: fadeUpAnimation 1s ease-in-out forwards;
 }
 .main-banner__title {
   text-transform: uppercase;
@@ -1052,6 +1065,14 @@ body {
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes fadeUpAnimation {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
   }
 }
 .doors-info {
