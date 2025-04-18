@@ -208,7 +208,17 @@ function add_assets() {
 
 add_action('wp_enqueue_scripts', 'add_assets');
 
-
+add_action('pre_get_posts', function( $query ){
+  // только главная страница блога, не в админке, и если передали cat
+  if ( $query->is_main_query() 
+       && ! is_admin() 
+       && ( is_post_type_archive('post') )
+       && ! empty( $_GET['cat'] ) 
+  ) {
+      $slug = sanitize_title( wp_unslash( $_GET['cat'] ) );
+      $query->set( 'category_name', $slug );
+  }
+});
 
 function get_quarters() {
 
