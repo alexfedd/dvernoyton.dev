@@ -201,6 +201,25 @@ body {
   visibility: hidden;
 }
 
+.intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4000;
+  background-color: #FFFFFF;
+  animation: fadeUpAnimation 1s ease-in-out forwards;
+}
+
+@keyframes fadeUpAnimation {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
 .breadcrumbs {
   padding-top: 60px;
   display: flex;
@@ -920,7 +939,7 @@ body {
 }
 
 .main-banner {
-  height: 813px;
+  min-height: 813px;
   padding: 119px 0;
   position: relative;
   overflow: hidden;
@@ -943,6 +962,7 @@ body {
 }
 @media (max-width: 1023px) {
   .main-banner {
+    min-height: auto;
     height: 600px;
     padding: 70px 0;
   }
@@ -972,17 +992,6 @@ body {
   inset: 0;
   z-index: 2;
   background-color: hsla(0, 0%, 0%, 0.77);
-}
-.main-banner::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 4000;
-  background-color: #FFFFFF;
-  animation: fadeUpAnimation 1s ease-in-out forwards;
 }
 .main-banner__title {
   text-transform: uppercase;
@@ -1066,14 +1075,6 @@ body {
   }
   100% {
     transform: scale(1);
-  }
-}
-@keyframes fadeUpAnimation {
-  0% {
-    bottom: 0;
-  }
-  100% {
-    bottom: 100%;
   }
 }
 .doors-info {

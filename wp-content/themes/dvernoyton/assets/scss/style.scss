@@ -185,6 +185,26 @@ body {
   }
 }
 
+.intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4000;
+    background-color: #FFFFFF;
+    animation: fadeUpAnimation 1s ease-in-out forwards;
+
+}
+@keyframes fadeUpAnimation {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+  }
+  
+}
 @import "./_breadcrumbs";
 
 @import "./item-card";

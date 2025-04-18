@@ -13,7 +13,7 @@ $result = get_projects(4);
 $projects = $result['projects'];
 
 ?>
-
+    <div class="intro"></div>
 
 
     <main class="main">
