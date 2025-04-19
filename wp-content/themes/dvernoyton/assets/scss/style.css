@@ -209,7 +209,7 @@ body {
   bottom: 0;
   z-index: 4000;
   background-color: #FFFFFF;
-  animation: fadeUpAnimation 1s ease-in-out forwards;
+  animation: fadeUpAnimation 1s ease forwards;
 }
 
 @keyframes fadeUpAnimation {
@@ -958,7 +958,7 @@ body {
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
-  animation: scaleAnimation 1s ease-in-out;
+  animation: scaleAnimation 1.3s ease;
 }
 @media (max-width: 1023px) {
   .main-banner {
@@ -1071,7 +1071,7 @@ body {
 
 @keyframes scaleAnimation {
   0% {
-    transform: scale(1.5);
+    transform: scale(2);
   }
   100% {
     transform: scale(1);
